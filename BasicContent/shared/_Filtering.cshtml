@@ -1,0 +1,11 @@
+@inherits Custom.Hybrid.Razor12
+@{
+    var sort = @CmsContext.Page.Parameters["sort"];
+}
+
+<div><small class="font-weight-bold">SORT BY</small></div>
+<div>
+    <a class="btn btn-sm @(sort == "desc" || sort == null ? "btn-main-shade text-white" : "btn-white")" href="@Link.To(parameters: "sort=desc")">NEWEST</a>
+    <a class="btn btn-sm @(sort == "asc" ? "btn-main-shade text-white" : "btn-white")" href="@Link.To(parameters: "sort=asc")">OLDEST</a>
+    <a class="d-none btn btn-sm btn-white">MOST POPULAR</a>
+</div>

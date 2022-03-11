@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="12.08.00" ExportDate="2022-03-10T20:19:20.1410842-05:00">
+  <Header>
+    <App Guid="251c0000-eafe-2792-0001-000000000001" />
+    <Language Default="en-us" />
+    <Dimensions />
+  </Header>
+  <AttributeSets>
+    <AttributeSet StaticName="App-Resources" Name="App-Resources" Description="Stores resources like translations for an app" Scope="System.App" AlwaysShareConfiguration="false">
+      <Attributes />
+    </AttributeSet>
+    <AttributeSet StaticName="App-Settings" Name="App-Settings" Description="Stores settings for an app" Scope="System.App" AlwaysShareConfiguration="false">
+      <Attributes />
+    </AttributeSet>
+  </AttributeSets>
+  <Entities>
+    <Entity AssignmentObjectType="App" AttributeSetStaticName="2SexyContent-App" AttributeSetName="2SexyContent-App" EntityGUID="0b14980f-a494-439d-9d33-cdf4cd0a8f78" Json="True" KeyNumber="1029">
+      <Value Key="DisplayName" Value="251c0000-eafe-2792-0001-000000000001" Type="String" />
+      <Value Key="Folder" Value="Primary" Type="String" />
+      <Value Key="OriginalId" Value="" Type="String" />
+      <Value Key="Version" Value="00.00.13" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="App" AttributeSetStaticName="App-Settings" AttributeSetName="App-Settings" EntityGUID="fe25d40f-b1fe-4b02-8d74-96a037005ad3" KeyNumber="1029" />
+    <Entity AssignmentObjectType="App" AttributeSetStaticName="App-Resources" AttributeSetName="App-Resources" EntityGUID="9fe9b66e-60ed-468b-a919-dfac2e9b6761" KeyNumber="1029" />
+  </Entities>
+  <PortalFiles>
+    <File Id="240" RelativePath="adam\Primary\1-m2zqoOf0SsihxLPELTow\Image\_Icons_NCRIC.png" />
+    <File Id="241" RelativePath="adam\Primary\50Be8NM4H06h4mT-FI_5xg\Image\_Icons_Gate_Codes copy.png" />
+    <File Id="242" RelativePath="adam\Primary\7zQnnTgCkk-zqeFzcXw1lQ\Image\_Icons_Justice_Web copy.png" />
+    <File Id="243" RelativePath="adam\Primary\A7-pOK7uq0yfhNYivaga-A\Image\_Icons_More_Resources copy.png" />
+    <File Id="244" RelativePath="adam\Primary\ayLRzmftz06qwUcqV59wdQ\Image\_Icons_Probation copy.png" />
+    <File Id="245" RelativePath="adam\Primary\D3XuXyfoGE-5NzrhDtXAQQ\Image\_Icons_Flock_Safety copy.png" />
+    <File Id="246" RelativePath="adam\Primary\EboDxrqU30SLDJnupcxF8Q\Image\_Icons_CA_Penal_Code copy.png" />
+    <File Id="247" RelativePath="adam\Primary\ElsijtYOn0WTto0D2hrSjw\Image\_Icons_CAL_Photo_Images copy.png" />
+    <File Id="248" RelativePath="adam\Primary\eW0gnB8fSUSrDYo_Q0PQVw\Image\_Icons_Solano_County_Safety_Portal copy.png" />
+    <File Id="249" RelativePath="adam\Primary\HOz_QeLbLUigSuXIeY30Ug\Image\_Icons_Axon.png" />
+    <File Id="250" RelativePath="adam\Primary\K6yUkZzDBUOtxwWhAobUoQ\Image\_Icons_TLO_xp copy.png" />
+    <File Id="251" RelativePath="adam\Primary\m3WKqUq53UCq0HtDyt4ZUg\Image\_Icons_NCRIR_ALPR.png" />
+    <File Id="252" RelativePath="adam\Primary\mAYmz1VuCEqAUJjYl-sstw\Image\_Icons_Parole_leads2.0.png" />
+    <File Id="253" RelativePath="adam\Primary\mmZOs2u56Ea6QcRMPfJCRA\Image\_Icons_SOlano_County_Superior_Court.png" />
+    <File Id="254" RelativePath="adam\Primary\N2FhmMr_BUC7PcOt58XcNQ\Image\_Icons_Employee_Intranet_Vacaville.png" />
+    <File Id="255" RelativePath="adam\Primary\PhvMW12tLke4CgECn2IbEA\Image\_Icons_VacavillePublic_Safety_Map.png" />
+    <File Id="256" RelativePath="adam\Primary\UomIeGoVykiclTcyLGKyGg\Image\_Icons_Aries copy.png" />
+    <File Id="257" RelativePath="adam\Primary\vs_mbZLz202yP9abbOjNww\Image\_Icons_Municipal_Code.png" />
+    <File Id="258" RelativePath="adam\Primary\YeFoeDlFAUyvlPlxqYbiyA\Image\_Icons_New_CJIS_Website.png" />
+    <File Id="259" RelativePath="adam\Primary\zuKDlXOS_US8PHs1kZs-Fg\Image\_Icons_COde_666_Locations copy.png" />
+  </PortalFiles>
+  <PortalFolders>
+    <Folder Id="3410" RelativePath="adam/Primary/1-m2zqoOf0SsihxLPELTow/Image/" />
+    <Folder Id="3412" RelativePath="adam/Primary/50Be8NM4H06h4mT-FI_5xg/Image/" />
+    <Folder Id="3414" RelativePath="adam/Primary/7zQnnTgCkk-zqeFzcXw1lQ/Image/" />
+    <Folder Id="3416" RelativePath="adam/Primary/A7-pOK7uq0yfhNYivaga-A/Image/" />
+    <Folder Id="3418" RelativePath="adam/Primary/ayLRzmftz06qwUcqV59wdQ/Image/" />
+    <Folder Id="3420" RelativePath="adam/Primary/D3XuXyfoGE-5NzrhDtXAQQ/Image/" />
+    <Folder Id="3422" RelativePath="adam/Primary/EboDxrqU30SLDJnupcxF8Q/Image/" />
+    <Folder Id="3424" RelativePath="adam/Primary/ElsijtYOn0WTto0D2hrSjw/Image/" />
+    <Folder Id="3426" RelativePath="adam/Primary/eW0gnB8fSUSrDYo_Q0PQVw/Image/" />
+    <Folder Id="3428" RelativePath="adam/Primary/HOz_QeLbLUigSuXIeY30Ug/Image/" />
+    <Folder Id="3430" RelativePath="adam/Primary/K6yUkZzDBUOtxwWhAobUoQ/Image/" />
+    <Folder Id="3432" RelativePath="adam/Primary/m3WKqUq53UCq0HtDyt4ZUg/Image/" />
+    <Folder Id="3434" RelativePath="adam/Primary/mAYmz1VuCEqAUJjYl-sstw/Image/" />
+    <Folder Id="3436" RelativePath="adam/Primary/mmZOs2u56Ea6QcRMPfJCRA/Image/" />
+    <Folder Id="3438" RelativePath="adam/Primary/N2FhmMr_BUC7PcOt58XcNQ/Image/" />
+    <Folder Id="3440" RelativePath="adam/Primary/PhvMW12tLke4CgECn2IbEA/Image/" />
+    <Folder Id="3442" RelativePath="adam/Primary/UomIeGoVykiclTcyLGKyGg/Image/" />
+    <Folder Id="3444" RelativePath="adam/Primary/vs_mbZLz202yP9abbOjNww/Image/" />
+    <Folder Id="3446" RelativePath="adam/Primary/YeFoeDlFAUyvlPlxqYbiyA/Image/" />
+    <Folder Id="3448" RelativePath="adam/Primary/zuKDlXOS_US8PHs1kZs-Fg/Image/" />
+    <Folder Id="3408" RelativePath="adam/Primary/" />
+    <Folder Id="3409" RelativePath="adam/Primary/1-m2zqoOf0SsihxLPELTow/" />
+    <Folder Id="3411" RelativePath="adam/Primary/50Be8NM4H06h4mT-FI_5xg/" />
+    <Folder Id="3413" RelativePath="adam/Primary/7zQnnTgCkk-zqeFzcXw1lQ/" />
+    <Folder Id="3415" RelativePath="adam/Primary/A7-pOK7uq0yfhNYivaga-A/" />
+    <Folder Id="3417" RelativePath="adam/Primary/ayLRzmftz06qwUcqV59wdQ/" />
+    <Folder Id="3419" RelativePath="adam/Primary/D3XuXyfoGE-5NzrhDtXAQQ/" />
+    <Folder Id="3421" RelativePath="adam/Primary/EboDxrqU30SLDJnupcxF8Q/" />
+    <Folder Id="3423" RelativePath="adam/Primary/ElsijtYOn0WTto0D2hrSjw/" />
+    <Folder Id="3425" RelativePath="adam/Primary/eW0gnB8fSUSrDYo_Q0PQVw/" />
+    <Folder Id="3427" RelativePath="adam/Primary/HOz_QeLbLUigSuXIeY30Ug/" />
+    <Folder Id="3429" RelativePath="adam/Primary/K6yUkZzDBUOtxwWhAobUoQ/" />
+    <Folder Id="3431" RelativePath="adam/Primary/m3WKqUq53UCq0HtDyt4ZUg/" />
+    <Folder Id="3433" RelativePath="adam/Primary/mAYmz1VuCEqAUJjYl-sstw/" />
+    <Folder Id="3435" RelativePath="adam/Primary/mmZOs2u56Ea6QcRMPfJCRA/" />
+    <Folder Id="3437" RelativePath="adam/Primary/N2FhmMr_BUC7PcOt58XcNQ/" />
+    <Folder Id="3439" RelativePath="adam/Primary/PhvMW12tLke4CgECn2IbEA/" />
+    <Folder Id="3441" RelativePath="adam/Primary/UomIeGoVykiclTcyLGKyGg/" />
+    <Folder Id="3443" RelativePath="adam/Primary/vs_mbZLz202yP9abbOjNww/" />
+    <Folder Id="3445" RelativePath="adam/Primary/YeFoeDlFAUyvlPlxqYbiyA/" />
+    <Folder Id="3447" RelativePath="adam/Primary/zuKDlXOS_US8PHs1kZs-Fg/" />
+  </PortalFolders>
+</SexyContent>

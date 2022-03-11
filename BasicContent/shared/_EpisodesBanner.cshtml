@@ -1,0 +1,66 @@
+@inherits Custom.Hybrid.Razor12
+
+@{
+    var bannerQuery = App.Query["Banner"];
+    var bannerDefault = bannerQuery["Default"];
+    var banner = AsList(bannerDefault).FirstOrDefault();
+
+    bool heading = !String.IsNullOrEmpty(banner.Heading);
+    bool content = !String.IsNullOrEmpty(banner.Content);
+    bool button = banner.Button != null && banner.Button.Count > 0;
+    bool background = banner.Image != null && banner.Image.Count > 0;
+    
+    var overlay = !String.IsNullOrEmpty(banner.Overlay) ? banner.Overlay : string.Empty;
+    var style = !String.IsNullOrEmpty(banner.Style) ? banner.Style : "auto";
+}
+
+<div id="banner-@(banner.EntityId)" class="d-flex align-items-center banner-@(style) button-wrapper-fix @(!background ? "no-img" : string.Empty)" style="background:@(background ? "url('" + banner.Image[0].File + "')" : "transparent") no-repeat center center;background-size:cover" @Edit.TagToolbar(banner, actions: "edit")>
+    <div class="container position-relative">
+        <div class="row">
+            <div class="col-12 py-7 @(style != "auto" && style != "330" ? "mt-7" : string.Empty)">
+                <div class="text-center @(style == "auto" ? "border border-white rounded p-3" : string.Empty)">
+                    @if(heading){
+                        <h1 class="text-white @(style.Contains("550") || style.Contains("330") ? "text-center" : string.Empty)">@banner.Heading</h1>
+                    }
+                    @if(content){
+                        <div class="@(style == "auto" ? "h3 char-limit-lg font-weight-normal" : style == "330" ? "h3 text-center font-weight-normal" : "h2 char-limit-sm" ) text-white">@Html.Raw(banner.Content)</div>
+                    }
+                    @if(button){
+                        <a href="@(banner.Button[0].Link)" class="btn btn-@(Content.Button[0].Style)@(Content.Button[0].Color[0].Class) mt-3half">@(banner.Button[0].Text)</a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    #banner-@(banner.EntityId) {
+        position:relative;
+    }
+    #banner-@(banner.EntityId):after {
+        content:'';
+        position:absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background:@(overlay);
+        opacity:0.7;
+        z-index:-1;
+    }
+    .no-img:after {
+        opacity:1 !important;
+    }
+    @@media only screen and (min-width: 768px) {
+        .banner-650 {
+            min-height:650px;
+        }
+        .banner-550 {
+            min-height:550px;
+        }
+        .banner-330 {
+            min-height:330px;
+        }
+    }
+</style>

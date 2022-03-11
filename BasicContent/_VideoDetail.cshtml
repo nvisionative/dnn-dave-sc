@@ -1,0 +1,94 @@
+@inherits Custom.Hybrid.Razor12
+@using ToSic.Sxc.Services;
+
+@{
+    var page = GetService<IPageService>();
+
+    var videoQuery = App.Query["VideoDetail"];
+    var videoDefault = videoQuery["Default"];
+    var video = AsDynamic(videoDefault.First());
+
+    page.SetTitle(video.Title, "DNN Dave > Video");
+    page.SetDescription(video.Summary);
+
+    page.AddOpenGraph("title", video.Title);
+    page.AddOpenGraph("description", video.Summary);
+    page.AddOpenGraph("type", "video.movie");
+    page.AddOpenGraph("image", @CmsContext.Site.Url + video.Image);
+    page.AddOpenGraph("url", @CmsContext.Site.Url);
+
+    page.AddMeta("twitter:card", "summary_large_image");
+    page.AddMeta("twitter:domain", @CmsContext.Site.UrlRoot);
+    page.AddMeta("twitter:url", @CmsContext.Site.Url);
+    page.AddMeta("twitter:title", video.Title);
+    page.AddMeta("twitter:description", video.Summary);
+    page.AddMeta("twitter:image", @CmsContext.Site.Url + video.Image);
+}
+
+<div id="episode-@(Content.EntityId)" class="d-flex align-items-center episode-550 button-wrapper-fix">
+    <div class="container position-relative">
+        <div class="row">
+            <div class="col-md-2 col-sm-1"></div>
+            <div class="col-12 col-md-8 col-sm-10 py-1">
+                <div @Edit.TagToolbar(Content, actions: "edit", settings: new { hover = "left" })>
+                    <picture>
+                        <a class="text-white" href="https://youtu.be/@video.YouTubeId" target="_blank"><img class="img-fluid" src="@video.Image" /></a>
+                    </picture>
+                </div>
+                <div class="row justify-content-between">
+                    <div class="col-12 col-lg-9 text-white mt-1">
+                        <h1 class="h4">@video.Title</h1>
+                        <h6 class="font-weight-bolder mt-1"><small>@video.Date.ToString("MMM dd, yyyy")</small></h6>
+                    </div>
+                    <div class="p-1 d-flex col-12 col-lg-3 justify-content-start justify-content-lg-end align-items-center">
+                        <a class="text-white" href="https://youtu.be/@video.YouTubeId" target="_blank"><span class="font-weight-bold mr-1">VIEW</span></a>
+                        <a class="text-white" href="https://youtu.be/@video.YouTubeId" target="_blank"><i class="far fa-play-circle fa-4x"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-1"></div>
+        </div>
+    </div>
+</div>
+
+<div class="container my-3">
+    <div class="row">
+        <div class="col-md-6" @Edit.TagToolbar(Content, actions: "edit")>
+            <h2 class="font-weight-bolder mb-2">SUMMARY <i class="fas fa-chevron-circle-up fa-1x"></i></h2>
+            <div>@Html.Raw(video.ShowNotes)</div>
+        </div>
+        <div class="col-md-6">
+            @Html.Partial("shared/_RelatedVideos.cshtml")
+        </div>
+    </div>
+</div>
+
+<style>
+    #episode-@(Content.EntityId) {
+        position:relative;
+    }
+    #episode-@(Content.EntityId):after {
+        content:'';
+        position:absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-color:#462a2c;
+        z-index:-1;
+    }
+    .no-img:after {
+        opacity:1 !important;
+    }
+    @@media only screen and (min-width: 768px) {
+        .episode-650 {
+            min-height:650px;
+        }
+        .episode-550 {
+            min-height:550px;
+        }
+        .episode-330 {
+            min-height:330px;
+        }
+    }
+</style>

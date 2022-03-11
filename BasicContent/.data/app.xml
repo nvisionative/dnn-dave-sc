@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="12.08.00" ExportDate="2022-03-10T20:19:33.5190426-05:00">
+  <Header>
+    <App Guid="24ab2c4e-0ccd-46f1-90a1-f9a840757adc" />
+    <Language Default="en-us" />
+    <Dimensions />
+  </Header>
+  <AttributeSets>
+    <AttributeSet StaticName="App-Resources" Name="App-Resources" Description="Stores resources like translations for an app" Scope="System.App" AlwaysShareConfiguration="false">
+      <Attributes />
+    </AttributeSet>
+    <AttributeSet StaticName="App-Settings" Name="App-Settings" Description="Stores settings for an app" Scope="System.App" AlwaysShareConfiguration="false">
+      <Attributes />
+    </AttributeSet>
+    <AttributeSet StaticName="57d58c7e-ae62-4da4-b0ea-45ae11c731f4" Name="Banner" Description="" Scope="Default" AlwaysShareConfiguration="false">
+      <Attributes>
+        <Attribute StaticName="Heading" Type="String" IsTitle="true">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="483c44db-1e4b-42da-9624-051d68a06b6f" Json="True" KeyNumber="1282">
+            <Value Key="InputType" Value="string-default" Type="String" />
+            <Value Key="Name" Value="Heading" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="Content" Type="String" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="71d1b1e3-d8bc-41b2-b6ae-d7193867159c" Json="True" KeyNumber="1283">
+            <Value Key="InputType" Value="string-wysiwyg" Type="String" />
+            <Value Key="Name" Value="Content" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="Button" Type="Entity" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="17607583-6513-4ee4-8b0c-21d8fc3ba016" Json="True" KeyNumber="1284">
+            <Value Key="CustomJavaScript" Value="" Type="String" />
+            <Value Key="DefaultValue" Value="" Type="String" />
+            <Value Key="Disabled" Value="False" Type="Boolean" />
+            <Value Key="DisableTranslation" Value="False" Type="Boolean" />
+            <Value Key="InputType" Value="entity-default" Type="String" />
+            <Value Key="Name" Value="Button" Type="String" />
+            <Value Key="Notes" Value="" Type="String" />
+            <Value Key="Placeholder" Value="" Type="String" />
+            <Value Key="Required" Value="False" Type="Boolean" />
+            <Value Key="ValidationRegExJavaScript" Value="" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@Entity" AttributeSetName="@Entity" EntityGUID="b1164c07-cd1e-4f22-ab11-c96784c56ce0" Json="True" KeyNumber="1284">
+            <Value Key="AllowMultiValue" Value="False" Type="Boolean" />
+            <Value Key="EnableAddExisting" Value="True" Type="Boolean" />
+            <Value Key="EnableCreate" Value="True" Type="Boolean" />
+            <Value Key="EnableDelete" Value="False" Type="Boolean" />
+            <Value Key="EnableEdit" Value="True" Type="Boolean" />
+            <Value Key="EnableRemove" Value="True" Type="Boolean" />
+            <Value Key="EntityType" Value="Button" Type="String" />
+            <Value Key="Prefill" Value="" Type="String" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="Overlay" Type="String" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="176647b6-0674-4948-867a-fd0100ee7a64" Json="True" KeyNumber="1285">
+            <Value Key="CustomJavaScript" Value="" Type="String" />
+            <Value Key="DefaultValue" Value="" Type="String" />
+            <Value Key="Disabled" Value="False" Type="Boolean" />
+            <Value Key="DisableTranslation" Value="False" Type="Boolean" />
+            <Value Key="InputType" Value="string-dropdown" Type="String" />
+            <Value Key="Name" Value="Overlay" Type="String" />
+            <Value Key="Notes" Value="" Type="String" />
+            <Value Key="Placeholder" Value="" Type="String" />
+            <Value Key="Required" Value="False" Type="Boolean" />
+            <Value Key="ValidationRegExJavaScript" Value="" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@String" AttributeSetName="@String" EntityGUID="ec253ab1-161d-46fd-870b-3e81c2d81f95" Json="True" KeyNumber="1285">
+            <Value Key="DropdownValues" Value="" Type="String" />
+            <Value Key="InputType" Value="" Type="String" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@string-dropdown" AttributeSetName="@string-dropdown" EntityGUID="abb99c50-f305-42c0-b174-7181d6cb9b13" Json="True" KeyNumber="1285">
+            <Value Key="DropdownValues" Value=":None&#xA;#19a8e7:Blue&#xA;#462a2b:Brown&#xA;linear-gradient(180deg, var(--color-main-shade, #19a8e7) 0%, var(--color-main-accent, #ec374a) 124%);:Blue to Red&#xA;linear-gradient(180deg, var(--color-main-shade, #19a8e7) 0%, var(--color-dark-shade, #462a2b) 124%);:Blue to Brown" Type="String" />
+            <Value Key="DropdownValuesFormat" Value="value-label" Type="String" />
+            <Value Key="EnableTextEntry" Value="False" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="Style" Type="String" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="4b10490c-593b-418b-ab35-6f5ca4ed3314" Json="True" KeyNumber="1286">
+            <Value Key="CustomJavaScript" Value="" Type="String" />
+            <Value Key="DefaultValue" Value="" Type="String" />
+            <Value Key="Disabled" Value="False" Type="Boolean" />
+            <Value Key="DisableTranslation" Value="False" Type="Boolean" />
+            <Value Key="InputType" Value="string-dropdown" Type="String" />
+            <Value Key="Name" Value="Style" Type="String" />
+            <Value Key="Notes" Value="" Type="String" />
+            <Value Key="Placeholder" Value="" Type="String" />
+            <Value Key="Required" Value="False" Type="Boolean" />
+            <Value Key="ValidationRegExJavaScript" Value="" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@String" AttributeSetName="@String" EntityGUID="f3526eb5-274b-4af0-ad75-9f40c4f00e59" Json="True" KeyNumber="1286">
+            <Value Key="DropdownValues" Value="" Type="String" />
+            <Value Key="InputType" Value="" Type="String" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@string-dropdown" AttributeSetName="@string-dropdown" EntityGUID="56e71852-22da-4a67-a269-391565f93053" Json="True" KeyNumber="1286">
+            <Value Key="DropdownValues" Value="auto:Auto&#xA;330:330&#xA;550:550&#xA;650:650" Type="String" />
+            <Value Key="DropdownValuesFormat" Value="value-label" Type="String" />
+            <Value Key="EnableTextEntry" Value="False" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="Image" Type="Entity" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="1b6bf610-3598-40c1-89c7-bb3bb8fd5d76" Json="True" KeyNumber="1287">
+            <Value Key="CustomJavaScript" Value="" Type="String" />
+            <Value Key="DefaultValue" Value="" Type="String" />
+            <Value Key="Disabled" Value="False" Type="Boolean" />
+            <Value Key="DisableTranslation" Value="False" Type="Boolean" />
+            <Value Key="InputType" Value="entity-default" Type="String" />
+            <Value Key="Name" Value="Image" Type="String" />
+            <Value Key="Notes" Value="" Type="String" />
+            <Value Key="Placeholder" Value="" Type="String" />
+            <Value Key="Required" Value="False" Type="Boolean" />
+            <Value Key="ValidationRegExJavaScript" Value="" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@Entity" AttributeSetName="@Entity" EntityGUID="ce2e9e6e-1336-4ccb-bc35-567646d3e408" Json="True" KeyNumber="1287">
+            <Value Key="AllowMultiValue" Value="False" Type="Boolean" />
+            <Value Key="EnableAddExisting" Value="True" Type="Boolean" />
+            <Value Key="EnableCreate" Value="True" Type="Boolean" />
+            <Value Key="EnableDelete" Value="False" Type="Boolean" />
+            <Value Key="EnableEdit" Value="True" Type="Boolean" />
+            <Value Key="EnableRemove" Value="True" Type="Boolean" />
+            <Value Key="EntityType" Value="Image" Type="String" />
+            <Value Key="Prefill" Value="" Type="String" />
+          </Entity>
+        </Attribute>
+      </Attributes>
+    </AttributeSet>
+    <AttributeSet StaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" Name="Video" Description="" Scope="Default" AlwaysShareConfiguration="false">
+      <Attributes>
+        <Attribute StaticName="Title" Type="String" IsTitle="true">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="f1a0c8db-9c6b-4ebe-afc9-1f91ffb056e4" Json="True" KeyNumber="1288">
+            <Value Key="InputType" Value="string-default" Type="String" />
+            <Value Key="Name" Value="Title" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="Slug" Type="String" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="81949c9b-3779-40cf-ba46-7a7260528db8" Json="True" KeyNumber="1289">
+            <Value Key="CustomJavaScript" Value="" Type="String" />
+            <Value Key="DefaultValue" Value="" Type="String" />
+            <Value Key="Disabled" Value="False" Type="Boolean" />
+            <Value Key="DisableTranslation" Value="False" Type="Boolean" />
+            <Value Key="InputType" Value="string-url-path" Type="String" />
+            <Value Key="Name" Value="Slug" Type="String" />
+            <Value Key="Notes" Value="" Type="String" />
+            <Value Key="Placeholder" Value="" Type="String" />
+            <Value Key="Required" Value="False" Type="Boolean" />
+            <Value Key="ValidationRegExJavaScript" Value="" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@String" AttributeSetName="@String" EntityGUID="191d427e-9795-4d7d-9ef7-46a29372e30a" Json="True" KeyNumber="1289">
+            <Value Key="DropdownValues" Value="" Type="String" />
+            <Value Key="InputType" Value="" Type="String" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@string-url-path" AttributeSetName="@string-url-path" EntityGUID="8765fdfe-6886-4710-bd17-5fda83ad8142" Json="True" KeyNumber="1289">
+            <Value Key="AllowSlashes" Value="False" Type="Boolean" />
+            <Value Key="AutoGenerateMask" Value="[Title]" Type="String" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="Date" Type="DateTime" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="2acd2a28-342a-4269-b338-c4e1427d41fd" Json="True" KeyNumber="1290">
+            <Value Key="InputType" Value="datetime-default" Type="String" />
+            <Value Key="Name" Value="Date" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="Summary" Type="String" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="bc340b74-1111-492a-a8d6-ef59f2ad4e03" Json="True" KeyNumber="1291">
+            <Value Key="InputType" Value="string-default" Type="String" />
+            <Value Key="Name" Value="Summary" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="Image" Type="Hyperlink" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="1835a2e1-2064-4f8e-a529-0315ed7e414e" Json="True" KeyNumber="1292">
+            <Value Key="CustomJavaScript" Value="" Type="String" />
+            <Value Key="DefaultValue" Value="" Type="String" />
+            <Value Key="Disabled" Value="False" Type="Boolean" />
+            <Value Key="DisableTranslation" Value="False" Type="Boolean" />
+            <Value Key="InputType" Value="hyperlink-default" Type="String" />
+            <Value Key="Name" Value="Image" Type="String" />
+            <Value Key="Notes" Value="" Type="String" />
+            <Value Key="Placeholder" Value="" Type="String" />
+            <Value Key="Required" Value="False" Type="Boolean" />
+            <Value Key="ValidationRegExJavaScript" Value="" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@Hyperlink" AttributeSetName="@Hyperlink" EntityGUID="0ee3e1d2-ca19-48a1-b2d3-e28989dd745e" Json="True" KeyNumber="1292">
+            <Value Key="Buttons" Value="adam,more" Type="String" />
+            <Value Key="DefaultDialog" Value="" Type="String" />
+            <Value Key="FileFilter" Value="" Type="String" />
+            <Value Key="Paths" Value="" Type="String" />
+            <Value Key="ServerResourceMapping" Value="" Type="String" />
+            <Value Key="ShowAdam" Value="True" Type="Boolean" />
+            <Value Key="ShowFileManager" Value="False" Type="Boolean" />
+            <Value Key="ShowImageManager" Value="False" Type="Boolean" />
+            <Value Key="ShowPagePicker" Value="False" Type="Boolean" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@hyperlink-library" AttributeSetName="@hyperlink-library" EntityGUID="69ce7823-fa33-4f80-a338-de9a69b18375" Json="True" KeyNumber="1292">
+            <Value Key="AllowAssetsInRoot" Value="True" Type="Boolean" />
+            <Value Key="FolderDepth" Value="2" Type="Number" />
+            <Value Key="MetadataContentTypes" Value="" Type="String" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="ShowNotes" Type="String" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="df5f715c-3bd3-456f-9fe1-dc63c1c61820" Json="True" KeyNumber="1293">
+            <Value Key="InputType" Value="string-wysiwyg" Type="String" />
+            <Value Key="Name" Value="ShowNotes" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="YouTubeId" Type="String" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="a4c75193-c984-4252-bc9a-c3a36c8e6496" Json="True" KeyNumber="1294">
+            <Value Key="InputType" Value="string-default" Type="String" />
+            <Value Key="Name" Value="YouTubeId" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="RelatedVideos" Type="Entity" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="e1076a1e-8d8a-4a0c-af81-174f2411b316" Json="True" KeyNumber="1295">
+            <Value Key="CustomJavaScript" Value="" Type="String" />
+            <Value Key="DefaultValue" Value="" Type="String" />
+            <Value Key="Disabled" Value="False" Type="Boolean" />
+            <Value Key="DisableTranslation" Value="False" Type="Boolean" />
+            <Value Key="InputType" Value="entity-default" Type="String" />
+            <Value Key="Name" Value="RelatedVideos" Type="String" />
+            <Value Key="Notes" Value="" Type="String" />
+            <Value Key="Placeholder" Value="" Type="String" />
+            <Value Key="Required" Value="False" Type="Boolean" />
+            <Value Key="ValidationRegExJavaScript" Value="" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@Entity" AttributeSetName="@Entity" EntityGUID="7b494f37-200e-4a70-b8da-e526cec5ff10" Json="True" KeyNumber="1295">
+            <Value Key="AllowMultiValue" Value="True" Type="Boolean" />
+            <Value Key="EnableAddExisting" Value="True" Type="Boolean" />
+            <Value Key="EnableCreate" Value="True" Type="Boolean" />
+            <Value Key="EnableDelete" Value="False" Type="Boolean" />
+            <Value Key="EnableEdit" Value="True" Type="Boolean" />
+            <Value Key="EnableRemove" Value="True" Type="Boolean" />
+            <Value Key="EntityType" Value="Video" Type="String" />
+            <Value Key="Prefill" Value="" Type="String" />
+          </Entity>
+        </Attribute>
+      </Attributes>
+    </AttributeSet>
+  </AttributeSets>
+  <Entities>
+    <Entity AssignmentObjectType="App" AttributeSetStaticName="2SexyContent-App" AttributeSetName="2SexyContent-App" EntityGUID="90715d89-96a6-4814-b1f9-5e8aafa4e65b" Json="True" KeyNumber="1031">
+      <Value Key="AllowRazorTemplates" Value="True" Type="Boolean" />
+      <Value Key="AllowTokenTemplates" Value="True" Type="Boolean" />
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="DisplayName" Value="Basic Content" Type="String" />
+      <Value Key="Folder" Value="BasicContent" Type="String" />
+      <Value Key="Hidden" Value="False" Type="Boolean" />
+      <Value Key="OriginalId" Value="" Type="String" />
+      <Value Key="RequiredDnnVersion" Value="07.02.00" Type="String" />
+      <Value Key="RequiredOqtaneVersion" Value="" Type="String" />
+      <Value Key="RequiredVersion" Value="08.03.00" Type="String" />
+      <Value Key="SupportsAjaxReload" Value="False" Type="Boolean" />
+      <Value Key="Version" Value="00.00.11" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="App" AttributeSetStaticName="App-Settings" AttributeSetName="App-Settings" EntityGUID="961d6921-f2f8-4438-a4e2-d3b0dd2dd7c0" KeyNumber="1031" />
+    <Entity AssignmentObjectType="App" AttributeSetStaticName="App-Resources" AttributeSetName="App-Resources" EntityGUID="5ea21f1e-c21c-46b7-b34a-aa63b027f1ff" KeyNumber="1031" />
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="3b7e8d93-d62d-4da0-996d-01f0d639534c" Json="True">
+      <Value Key="ContentDemoEntity" Value="ebac3b3c-edd3-46da-bb9d-aa655bffe4c1" Type="Entity" />
+      <Value Key="ContentTypeStaticName" Value="207b2d07-cead-41a6-9c94-7cdffb45bd4c" Type="String" />
+      <Value Key="Icon" Value="" Type="Hyperlink" />
+      <Value Key="Identifier" Value="" Type="String" />
+      <Value Key="IsHidden" Value="False" Type="Boolean" />
+      <Value Key="ListContentTypeStaticName" Value="" Type="String" />
+      <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="Location" Value="Site" Type="String" />
+      <Value Key="Name" Value="VideoList" Type="String" />
+      <Value Key="Path" Value="_VideoList.cshtml" Type="String" />
+      <Value Key="Pipeline" Value="196b8bcc-e452-44da-a0f6-63b4ba7e29ca" Type="Entity" />
+      <Value Key="PresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="PublishData" Value="False" Type="Boolean" />
+      <Value Key="SearchIndexingDisabled" Value="False" Type="Boolean" />
+      <Value Key="SearchIndexingStreams" Value="Default" Type="String" />
+      <Value Key="StreamsToPublish" Value="" Type="String" />
+      <Value Key="Type" Value="C# Razor" Type="String" />
+      <Value Key="UseForList" Value="True" Type="Boolean" />
+      <Value Key="ViewController" Value="DnnSearch.cs" Type="String" />
+      <Value Key="ViewNameInUrl" Value="" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="ebac3b3c-edd3-46da-bb9d-aa655bffe4c1">
+      <Value Key="Date" Value="2021-01-16T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:326" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="9c0dbb87-3360-4612-8cb8-ffb4d18c708c,9f092dbb-55c1-43fe-b450-2748adb41674,f395af24-3720-4d9c-8355-c470e6f64c08" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;Today we have the privilege and honor to reconnect with a true O.G., the DNN Hero, our DNN Deskpal, the S010 Coder, the one we could always go to for a nice DNN chat and the latest and greatest in DNN news. He&amp;rsquo;s a teacher to the core, and my good friend, Aderson Oliveira. Hello, hello!&lt;/p&gt;&#xA;&lt;p&gt;Aderson Oliveira&lt;br /&gt;&lt;a href=&quot;https://mynameisnotanderson.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://mynameisnotanderson.com&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://twitter.com/adersonoliveira&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; https://twitter.com/adersonoliveira&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://www.linkedin.com/in/adersonoliveira&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.linkedin.com/in/adersonoliveira&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;DNN Hero&lt;br /&gt;&lt;a href=&quot;https://www.dnnhero.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.dnnhero.com&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://www.youtube.com/c/dnnhero&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.youtube.com/c/dnnhero&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;DeskPal&lt;br /&gt;&lt;a href=&quot;https://deskpal.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://deskpal.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The Solo Coder&lt;br /&gt;&lt;a href=&quot;https://solocoder.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://solocoder.com&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://www.youtube.com/c/TheSoloCoders&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.youtube.com/c/TheSoloCoders&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;DNN Platform&lt;br /&gt;&lt;a href=&quot;https://github.com/dnnsoftware/Dnn.Platform&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/dnnsoftware/Dnn.Platform&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;DNN Community&lt;br /&gt;&lt;a href=&quot;https://dnncommunity.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://dnncommunity.org&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="hello-hello-with-aderson-oliveira" Type="String" />
+      <Value Key="Summary" Value="Today we have the privilege and honor to reconnect with a true O.G., the DNN Hero, our DNN Deskpal, the S010 Coder, the one we could always go to for a nice DNN chat and the latest and greatest in DNN news.  He’s a teacher to the core, and my good friend, Aderson Oliveira.  Hello, hello!" Type="String" />
+      <Value Key="Title" Value="&quot;Hello, Hello!&quot; with Aderson Oliveira" Type="String" />
+      <Value Key="YouTubeId" Value="XGomi6upGjo" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="8a6e9df4-71ec-4887-8970-2ee57e8d3bd6">
+      <Value Key="Date" Value="2021-03-13T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:305" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="89f515f7-e58a-436d-a8b9-47ab8818f410" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;Today we rejoin Aaron Lopez and discuss how to handle OpenGraph meta tags in DNN. OpenGraph tags help to ensure the appropriate title, description, image, etc. are displayed when sharing the page link on social networks such as Facebook and Twitter.&lt;/p&gt;&#xA;&lt;p&gt;Aaron Lopez (WOLF X MACHINA)&lt;br /&gt;&lt;a href=&quot;https://wolfxmachina.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://wolfxmachina.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;DNN Platform&lt;br /&gt;&lt;a href=&quot;https://github.com/dnnsoftware/Dnn.Platform&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/dnnsoftware/Dnn.Platform&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;DNN Community&lt;br /&gt;&lt;a href=&quot;https://dnncommunity.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://dnncommunity.org&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="opengraph-in-dnn-with-aaron-lopez" Type="String" />
+      <Value Key="Summary" Value="Today we rejoin Aaron Lopez and discuss how to handle OpenGraph meta tags in DNN.  OpenGraph tags help to ensure the appropriate title, description, image, etc. are displayed when sharing the page link on social networks such as Facebook and Twitter." Type="String" />
+      <Value Key="Title" Value="OpenGraph in DNN with Aaron Lopez" Type="String" />
+      <Value Key="YouTubeId" Value="edcf3dxHa4M" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="eef147b8-5013-4b58-97e7-da5e1cbbb6ed" Json="True">
+      <Value Key="ContentDemoEntity" Value="69c00f90-5aed-40c4-beb0-297d0bc886fb" Type="Entity" />
+      <Value Key="ContentTypeStaticName" Value="57d58c7e-ae62-4da4-b0ea-45ae11c731f4" Type="String" />
+      <Value Key="Icon" Value="" Type="Hyperlink" />
+      <Value Key="Identifier" Value="" Type="String" />
+      <Value Key="IsHidden" Value="False" Type="Boolean" />
+      <Value Key="ListContentTypeStaticName" Value="" Type="String" />
+      <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="Location" Value="Site" Type="String" />
+      <Value Key="Name" Value="Banner" Type="String" />
+      <Value Key="Path" Value="_Banner.cshtml" Type="String" />
+      <Value Key="PresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="PublishData" Value="False" Type="Boolean" />
+      <Value Key="SearchIndexingDisabled" Value="False" Type="Boolean" />
+      <Value Key="SearchIndexingStreams" Value="" Type="String" />
+      <Value Key="StreamsToPublish" Value="" Type="String" />
+      <Value Key="Type" Value="C# Razor" Type="String" />
+      <Value Key="UseForList" Value="False" Type="Boolean" />
+      <Value Key="ViewController" Value="" Type="String" />
+      <Value Key="ViewNameInUrl" Value="!Episode/.*" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="57d58c7e-ae62-4da4-b0ea-45ae11c731f4" AttributeSetName="Banner" EntityGUID="69c00f90-5aed-40c4-beb0-297d0bc886fb">
+      <Value Key="Content" Value="&lt;p&gt;Watch the latest videos from &lt;strong&gt;DNN Dave&lt;/strong&gt;...&lt;/p&gt;" Type="String" />
+      <Value Key="Heading" Value="VIDEOS" Type="String" />
+      <Value Key="Overlay" Value="#19a8e7" Type="String" />
+      <Value Key="Style" Value="330" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="0a135330-07b0-4439-81a0-a25237835875">
+      <Value Key="Date" Value="2021-12-12T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:323" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="f395af24-3720-4d9c-8355-c470e6f64c08" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;I speak with the Board of Directors for DNN Association about the upcoming DNN Summit 2022. We'll learn what this wonderful DNN Community conference is all about and why you should seriously consider attending.&lt;/p&gt;&#xA;&lt;p&gt;DNN Summit&lt;br /&gt;&lt;a href=&quot;https://dnnsummit.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://dnnsummit.org&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;DNN Community&lt;br /&gt;&lt;a href=&quot;https://dnncommunity.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://dnncommunity.org&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;DNN Platform&lt;br /&gt;&lt;a href=&quot;https://github.com/dnnsoftware/Dnn.Platform&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/dnnsoftware/Dnn.Platform&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hopin&lt;br /&gt;&lt;a href=&quot;https://hopin.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://hopin.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="dnn-summit-2022-what-to-expect" Type="String" />
+      <Value Key="Summary" Value="I speak with the Board of Directors for DNN Association about the upcoming DNN Summit 2022.  We'll learn what this wonderful DNN Community conference is all about and why you should seriously consider attending.  " Type="String" />
+      <Value Key="Title" Value="DNN Summit 2022 - What To Expect" Type="String" />
+      <Value Key="YouTubeId" Value="zCG8uyCoKjo" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="6d19467e-b343-4a78-9db3-b9a7dc9be1c9">
+      <Value Key="Date" Value="2021-05-01T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:314" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="ebac3b3c-edd3-46da-bb9d-aa655bffe4c1,89f515f7-e58a-436d-a8b9-47ab8818f410" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;Today we join Jeremy Farrance of Accuraty Solutions, based in downtown Champaign, Illinois. Jeremy is a fan, integrator, and user of DNN Platform. We discover his history with DNN and get to know him a bit better as a person. We also learn more about his company and its services.&lt;/p&gt;&#xA;&lt;p&gt;Accuraty Solutions is an award-winning full-service website firm, consisting of creative and multi-talented web designers and developers. We provide a wide range of services including web design, web development, applications, hosting, e-commerce, search engine optimization (SEO), and consulting.&lt;/p&gt;&#xA;&lt;p&gt;Accuraty Solutions&lt;br /&gt;&lt;a href=&quot;https://accuraty.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://accuraty.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;DNN Platform&lt;br /&gt;&lt;a href=&quot;https://github.com/dnnsoftware/Dnn.Platform&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/dnnsoftware/Dnn.Platform&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;DNN Community&lt;br /&gt;&lt;a href=&quot;https://dnncommunity.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://dnncommunity.org&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="meet-jeremy-farrance-of-accuraty-solutions" Type="String" />
+      <Value Key="Summary" Value="Today we join Jeremy Farrance of Accuraty Solutions, based in downtown Champaign, Illinois.  Jeremy is a fan, integrator, and user of DNN Platform.  We discover his history with DNN and get to know him a bit better as a person.  We also learn more about his company and its services." Type="String" />
+      <Value Key="Title" Value="Meet Jeremy Farrance of Accuraty Solutions" Type="String" />
+      <Value Key="YouTubeId" Value="zGVuy2oak8M" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="db62083f-0977-4f29-87a4-1f37e59f6f82">
+      <Value Key="Date" Value="2020-12-13T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:329" Type="Hyperlink" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;This is the first in a multi-part live-coding session. We'll be building a file upload module from scratch using the DNN SPA module development pattern and DropzoneJS.&lt;/p&gt;&#xA;&lt;p&gt;DNN CLI&lt;br /&gt;&lt;a href=&quot;https://github.com/DNNCommunity/dnn-cli&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/DNNCommunity/dnn-cli&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;DNN starter-module-spa&lt;br /&gt;&lt;a href=&quot;https://github.com/DNNCommunity/starter-spa&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/DNNCommunity/starter-spa&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;nvQuickSite&lt;br /&gt;&lt;a href=&quot;https://github.com/nvisionative/nvQuickSite&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/nvisionative/nvQuickSite&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;About DNN:&lt;br /&gt;DNN Platform is a free, open-source .NET CMS and the foundation of DNN's Evoq product offerings. Over 750,000 organizations worldwide have built websites powered by DNN Platform.&lt;/p&gt;&#xA;&lt;p&gt;DNN Platform&lt;br /&gt;&lt;a href=&quot;https://github.com/dnnsoftware/Dnn.Platform&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/dnnsoftware/Dnn.Platform&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;DNN Community&lt;br /&gt;&lt;a href=&quot;https://dnncommunity.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://dnncommunity.org&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="file-upload-using-dropzonejs-in-a-dnn-module-part-1-live-coding" Type="String" />
+      <Value Key="Summary" Value="This is the first in a multi-part live-coding session.  We'll be building a file upload module from scratch using the DNN SPA module development pattern and DropzoneJS." Type="String" />
+      <Value Key="Title" Value="File Upload Using DropzoneJS in a DNN Module (Part 1 - Live Coding)" Type="String" />
+      <Value Key="YouTubeId" Value="" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="73809093-d1aa-4364-92f7-414d3df8fa86">
+      <Value Key="Date" Value="2020-11-12T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:321" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="35065d7e-b3a4-4229-9dcc-b93e7d748623" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;In this session, Daniel Valadas and I will walk you through step-by-step on the complete removal of Telerik from DNN Platform 9.8.0. Many of you have been waiting for this ability and it is now possible in DNN Platform 9.8.0.&lt;/p&gt;&#xA;&lt;p&gt;DNN Platform&lt;br /&gt;&lt;a href=&quot;https://github.com/dnnsoftware/Dnn.Platform&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/dnnsoftware/Dnn.Platform&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;DNN Platform 9.8.0 Release&lt;br /&gt;&lt;a href=&quot;https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.8.0&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.8.0&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;DNN Telerik Identifier&lt;br /&gt;&lt;a href=&quot;https://github.com/IowaComputerGurus/DnnTelerikIdentifier&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/IowaComputerGurus/DnnTelerikIdentifier&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="how-to-remove-telerik-completely-from-dnn-9-8-0" Type="String" />
+      <Value Key="Summary" Value="In this session, Daniel Valadas and I will walk you through step-by-step on the complete removal of Telerik from DNN Platform 9.8.0.  Many of you have been waiting for this ability and it is now possible in DNN Platform 9.8.0." Type="String" />
+      <Value Key="Title" Value="How To Remove Telerik COMPLETELY from DNN 9.8.0" Type="String" />
+      <Value Key="YouTubeId" Value="JNgXXSOQBTs" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="47e7be58-29d7-4727-9368-cb7b101de240" Json="True">
+      <Value Key="ContentDemoEntity" Value="0a135330-07b0-4439-81a0-a25237835875" Type="Entity" />
+      <Value Key="ContentTypeStaticName" Value="207b2d07-cead-41a6-9c94-7cdffb45bd4c" Type="String" />
+      <Value Key="Icon" Value="" Type="Hyperlink" />
+      <Value Key="Identifier" Value="" Type="String" />
+      <Value Key="IsHidden" Value="False" Type="Boolean" />
+      <Value Key="ListContentTypeStaticName" Value="" Type="String" />
+      <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="Location" Value="Site" Type="String" />
+      <Value Key="Name" Value="VideoDetail" Type="String" />
+      <Value Key="Path" Value="_VideoDetail.cshtml" Type="String" />
+      <Value Key="Pipeline" Value="39a90cd4-1415-4b00-9a21-ef4eb50f9d8b" Type="Entity" />
+      <Value Key="PresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="PublishData" Value="False" Type="Boolean" />
+      <Value Key="SearchIndexingDisabled" Value="False" Type="Boolean" />
+      <Value Key="SearchIndexingStreams" Value="" Type="String" />
+      <Value Key="StreamsToPublish" Value="" Type="String" />
+      <Value Key="Type" Value="C# Razor" Type="String" />
+      <Value Key="UseForList" Value="False" Type="Boolean" />
+      <Value Key="ViewController" Value="DnnSearch.cs" Type="String" />
+      <Value Key="ViewNameInUrl" Value="Episode/.*" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="DataPipeline" AttributeSetName="DataPipeline" EntityGUID="196b8bcc-e452-44da-a0f6-63b4ba7e29ca" Json="True">
+      <Value Key="AllowEdit" Value="True" Type="Boolean" />
+      <Value Key="Description" Value="List of all videos." Type="String" />
+      <Value Key="Name" Value="VideoList" Type="String" />
+      <Value Key="Params" Value="page=1" Type="String" />
+      <Value Key="StreamsOut" Value="Default,Header,Paging" Type="String" />
+      <Value Key="StreamWiring" Value="a228a24f-7ce4-45a4-b774-a4569118490d:Default&gt;e415fe3b-bf16-4837-82c1-dba6681e9d1d:Default&#xD;&#xA;e415fe3b-bf16-4837-82c1-dba6681e9d1d:Default&gt;8ca3d717-41f9-4c45-a009-e08400713ce6:Default&#xD;&#xA;8ca3d717-41f9-4c45-a009-e08400713ce6:Default&gt;8d90d527-cd98-4a79-91f7-e1d9b031b41f:Default&#xD;&#xA;8d90d527-cd98-4a79-91f7-e1d9b031b41f:Default&gt;Out:Default&#xD;&#xA;8d90d527-cd98-4a79-91f7-e1d9b031b41f:Paging&gt;Out:Paging" Type="String" />
+      <Value Key="TestParameters" Value="[Module:Id]=394&#xA;[Querystring:Page]=1&#xA;[QueryString:PageSize]=4" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="a228a24f-7ce4-45a4-b774-a4569118490d" Json="True" KeyGuid="196b8bcc-e452-44da-a0f6-63b4ba7e29ca">
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="Name" Value="App" Type="String" />
+      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.App, ToSic.Eav.DataSources" Type="String" />
+      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 660,&#xD;&#xA;  &quot;Left&quot;: 440&#xD;&#xA;}" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="|Config ToSic.Eav.DataSources.Paging" AttributeSetName="ToSic.Eav.DataSources.Paging" EntityGUID="870804a9-376a-4357-8441-e7fe95b929d8" Json="True" KeyGuid="3105ee76-87f7-4dff-84c3-5cab6c71c14e">
+      <Value Key="PageNumber" Value="[QueryString:Page]" Type="String" />
+      <Value Key="PageSize" Value="10" Type="String" />
+      <Value Key="Title" Value="Paging data source" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="|Config ToSic.Eav.DataSources.App" AttributeSetName="ToSic.Eav.DataSources.App" EntityGUID="acb92bba-0f7f-4738-a53e-bedc18a1560e" Json="True" KeyGuid="a228a24f-7ce4-45a4-b774-a4569118490d">
+      <Value Key="AppSwitch" Value="" Type="String" />
+      <Value Key="ZoneSwitch" Value="" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="e415fe3b-bf16-4837-82c1-dba6681e9d1d" Json="True" KeyGuid="196b8bcc-e452-44da-a0f6-63b4ba7e29ca">
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="Name" Value="Type-Filter" Type="String" />
+      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.EntityTypeFilter, ToSic.Eav.DataSources" Type="String" />
+      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 500,&#xD;&#xA;  &quot;Left&quot;: 500&#xD;&#xA;}" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="|Config ToSic.Eav.DataSources.EntityTypeFilter" AttributeSetName="ToSic.Eav.DataSources.EntityTypeFilter" EntityGUID="bc2f37b0-1ee2-45bf-93b8-05eb2ed5eb14" Json="True" KeyGuid="e415fe3b-bf16-4837-82c1-dba6681e9d1d">
+      <Value Key="TypeName" Value="207b2d07-cead-41a6-9c94-7cdffb45bd4c" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="8ca3d717-41f9-4c45-a009-e08400713ce6" Json="True" KeyGuid="196b8bcc-e452-44da-a0f6-63b4ba7e29ca">
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="Name" Value="Value Sort" Type="String" />
+      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.ValueSort, ToSic.Eav.DataSources" Type="String" />
+      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 360,&#xD;&#xA;  &quot;Left&quot;: 380&#xD;&#xA;}" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="|Config ToSic.Eav.DataSources.ValueSort" AttributeSetName="ToSic.Eav.DataSources.ValueSort" EntityGUID="6164003e-da9d-467d-871f-1803391cf49a" Json="True" KeyGuid="8ca3d717-41f9-4c45-a009-e08400713ce6">
+      <Value Key="Attributes" Value="Date" Type="String" />
+      <Value Key="Directions" Value="[QueryString:sort||desc]" Type="String" />
+      <Value Key="Languages" Value="" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="8d90d527-cd98-4a79-91f7-e1d9b031b41f" Json="True" KeyGuid="196b8bcc-e452-44da-a0f6-63b4ba7e29ca">
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="Name" Value="Paging" Type="String" />
+      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.Paging, ToSic.Eav.DataSources" Type="String" />
+      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 200,&#xD;&#xA;  &quot;Left&quot;: 500&#xD;&#xA;}" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="|Config ToSic.Eav.DataSources.Paging" AttributeSetName="ToSic.Eav.DataSources.Paging" EntityGUID="8fc17d91-ad62-4835-a7e6-409dada49d27" Json="True" KeyGuid="8d90d527-cd98-4a79-91f7-e1d9b031b41f">
+      <Value Key="PageNumber" Value="[QueryString:Page||1]" Type="String" />
+      <Value Key="PageSize" Value="[QueryString:PageSize||20]" Type="String" />
+      <Value Key="Title" Value="Paging data source" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="DataPipeline" AttributeSetName="DataPipeline" EntityGUID="39a90cd4-1415-4b00-9a21-ef4eb50f9d8b" Json="True">
+      <Value Key="AllowEdit" Value="True" Type="Boolean" />
+      <Value Key="Description" Value="Obtains detail data for an individual video" Type="String" />
+      <Value Key="Name" Value="VideoDetail" Type="String" />
+      <Value Key="Params" Value="" Type="String" />
+      <Value Key="StreamsOut" Value="Default,Header" Type="String" />
+      <Value Key="StreamWiring" Value="929e5b38-22e5-4947-909f-6fec657bdf8e:Default&gt;Out:Default&#xD;&#xA;ab4ea3b0-5915-4859-af09-27528a22c7da:Default&gt;7b4d65b0-ed98-4538-91ba-b544cf78751c:Default&#xD;&#xA;7b4d65b0-ed98-4538-91ba-b544cf78751c:Default&gt;929e5b38-22e5-4947-909f-6fec657bdf8e:Default" Type="String" />
+      <Value Key="TestParameters" Value="[QueryString:id]=752" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="929e5b38-22e5-4947-909f-6fec657bdf8e" Json="True" KeyGuid="39a90cd4-1415-4b00-9a21-ef4eb50f9d8b">
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="Name" Value="Value Filter" Type="String" />
+      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.ValueFilter, ToSic.Eav.DataSources" Type="String" />
+      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 220,&#xD;&#xA;  &quot;Left&quot;: 400&#xD;&#xA;}" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="|Config ToSic.Eav.DataSources.ValueFilter" AttributeSetName="ToSic.Eav.DataSources.ValueFilter" EntityGUID="23da11ef-ae1c-4a3b-ad54-0aa45a7a1702" Json="True" KeyGuid="929e5b38-22e5-4947-909f-6fec657bdf8e">
+      <Value Key="Attribute" Value="Slug" Type="String" />
+      <Value Key="Languages" Value="" Type="String" />
+      <Value Key="Operator" Value="==" Type="String" />
+      <Value Key="Take" Value="" Type="String" />
+      <Value Key="Value" Value="[QueryString:episode]" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="ab4ea3b0-5915-4859-af09-27528a22c7da" Json="True" KeyGuid="39a90cd4-1415-4b00-9a21-ef4eb50f9d8b">
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="Name" Value="App" Type="String" />
+      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.App, ToSic.Eav.DataSources" Type="String" />
+      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 500,&#xD;&#xA;  &quot;Left&quot;: 380&#xD;&#xA;}" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="|Config ToSic.Eav.DataSources.App" AttributeSetName="ToSic.Eav.DataSources.App" EntityGUID="338eaee2-34ef-4203-9339-401f8304aebd" Json="True" KeyGuid="ab4ea3b0-5915-4859-af09-27528a22c7da">
+      <Value Key="AppSwitch" Value="3" Type="String" />
+      <Value Key="ZoneSwitch" Value="" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="7b4d65b0-ed98-4538-91ba-b544cf78751c" Json="True" KeyGuid="39a90cd4-1415-4b00-9a21-ef4eb50f9d8b">
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="Name" Value="Type-Filter" Type="String" />
+      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.EntityTypeFilter, ToSic.Eav.DataSources" Type="String" />
+      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 360,&#xD;&#xA;  &quot;Left&quot;: 380&#xD;&#xA;}" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="|Config ToSic.Eav.DataSources.EntityTypeFilter" AttributeSetName="ToSic.Eav.DataSources.EntityTypeFilter" EntityGUID="aede1439-fa05-4f94-b523-31fcbc40f015" Json="True" KeyGuid="7b4d65b0-ed98-4538-91ba-b544cf78751c">
+      <Value Key="TypeName" Value="207b2d07-cead-41a6-9c94-7cdffb45bd4c" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="DataPipeline" AttributeSetName="DataPipeline" EntityGUID="b09fec22-7bfe-468b-a2d5-0791ece1d96b" Json="True">
+      <Value Key="AllowEdit" Value="True" Type="Boolean" />
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="Name" Value="Banner" Type="String" />
+      <Value Key="Params" Value="" Type="String" />
+      <Value Key="StreamsOut" Value="Default,Header" Type="String" />
+      <Value Key="StreamWiring" Value="dbaadf4f-7374-4bf1-a2a1-6b7493ad185a:Default&gt;Out:Default&#xD;&#xA;0780ff5a-5cd1-4184-a7dc-40e7305a0f96:Default&gt;dbaadf4f-7374-4bf1-a2a1-6b7493ad185a:Default" Type="String" />
+      <Value Key="TestParameters" Value="" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="0780ff5a-5cd1-4184-a7dc-40e7305a0f96" Json="True" KeyGuid="b09fec22-7bfe-468b-a2d5-0791ece1d96b">
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="Name" Value="App" Type="String" />
+      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.App, ToSic.Eav.DataSources" Type="String" />
+      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 440,&#xD;&#xA;  &quot;Left&quot;: 420&#xD;&#xA;}" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="|Config ToSic.Eav.DataSources.App" AttributeSetName="ToSic.Eav.DataSources.App" EntityGUID="3504b737-bfbd-4653-829c-3ab18679647e" Json="True" KeyGuid="0780ff5a-5cd1-4184-a7dc-40e7305a0f96">
+      <Value Key="AppSwitch" Value="3" Type="String" />
+      <Value Key="ZoneSwitch" Value="" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="|Config ToSic.Eav.DataSources.EntityTypeFilter" AttributeSetName="ToSic.Eav.DataSources.EntityTypeFilter" EntityGUID="56209a56-a2a2-4700-b090-158052613ef0" Json="True" KeyGuid="f2a77d4f-79ae-470a-a219-6f8f411427e2">
+      <Value Key="TypeName" Value="" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="dbaadf4f-7374-4bf1-a2a1-6b7493ad185a" Json="True" KeyGuid="b09fec22-7bfe-468b-a2d5-0791ece1d96b">
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="Name" Value="Item Id Filter" Type="String" />
+      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.EntityIdFilter, ToSic.Eav.DataSources" Type="String" />
+      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 220,&#xD;&#xA;  &quot;Left&quot;: 380&#xD;&#xA;}" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="|Config ToSic.Eav.DataSources.EntityIdFilter" AttributeSetName="ToSic.Eav.DataSources.EntityIdFilter" EntityGUID="f9a84a20-45d8-4b98-925d-b5c5dcdf4d52" Json="True" KeyGuid="dbaadf4f-7374-4bf1-a2a1-6b7493ad185a">
+      <Value Key="EntityIds" Value="742" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="a108fc3e-6d58-4bd0-ac36-4e6ef0af23bc">
+      <Value Key="Date" Value="2020-11-01T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:328" Type="Hyperlink" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;Check out this awesome FREE extension called Scheduled SQL Jobs. This extension is provided by Mitchel Sellers and Iowa Computer Gurus and can be found on GitHub (link provided below). This extension is a sure winner for every DNNCMS website in your portfolio!&lt;/p&gt;&#xA;&lt;p&gt;DNN Platform&lt;br /&gt;&lt;a href=&quot;https://github.com/dnnsoftware/Dnn.Platform&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/dnnsoftware/Dnn.Platform&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Scheduled SQL Jobs&lt;br /&gt;&lt;a href=&quot;https://github.com/IowaComputerGurus/dnn.scheduledjobs&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/IowaComputerGurus/dnn.scheduledjobs&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="dnn-performance-tip-how-to-automate-clean-up-of-admin-logs-and-shrinking-of-database" Type="String" />
+      <Value Key="Summary" Value="Check out this awesome FREE extension called Scheduled SQL Jobs.  This extension is provided by Mitchel Sellers and Iowa Computer Gurus and can be found on GitHub (link provided below).  This extension is a sure winner for every DNNCMS website in your portfolio!" Type="String" />
+      <Value Key="Title" Value="DNN Performance Tip: How To Automate Clean Up Of Admin Logs and Shrinking of Database" Type="String" />
+      <Value Key="YouTubeId" Value="WGTIFGEEk8E" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="35065d7e-b3a4-4229-9dcc-b93e7d748623">
+      <Value Key="Date" Value="2020-10-04T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:315" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="73809093-d1aa-4364-92f7-414d3df8fa86" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;Today I'll be chatting with Mitchel Sellers (https://www.mitchelsellers.com), the Technology Lead for DNN Platform, about the latest and GREATEST release - DNN Platform 9.8.0. This truly is an epic release and there is much to chat about.&lt;/p&gt;&#xA;&lt;p&gt;DNN Platform&lt;br /&gt;&lt;a href=&quot;https://github.com/dnnsoftware/Dnn.Platform&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/dnnsoftware/Dnn.Platform&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;9.8.0 Release Candidate (RC1)&lt;br /&gt;&lt;a href=&quot;https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.8.0-rc1&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/dnnsoftware/Dnn.Platform/releases/tag/v9.8.0-rc1&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Dnn Telerik Identifier&lt;br /&gt;&lt;a href=&quot;https://github.com/IowaComputerGurus/DnnTelerikIdentifier&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/IowaComputerGurus/DnnTelerikIdentifier&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="introducing-dnn-9-8-0-what-you-need-to-know-melting-the-iceberg-that-almost-sank-the-ship" Type="String" />
+      <Value Key="Summary" Value="Today I'll be chatting with Mitchel Sellers (https://www.mitchelsellers.com), the Technology Lead for DNN Platform, about the latest and GREATEST release - DNN Platform 9.8.0.  This truly is an epic release and there is much to chat about." Type="String" />
+      <Value Key="Title" Value="Introducing DNN 9.8.0 What You Need To Know - Melting The Iceberg That Almost Sank The Ship" Type="String" />
+      <Value Key="YouTubeId" Value="AS6mY3bvMGw" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="7c928ad6-349e-4d47-b64c-b6f27dee375b">
+      <Value Key="Date" Value="2020-10-07T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:297" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="2cb92984-fa5a-4a3c-9822-e1ec273ae69f" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;Hacktoberfest 2020 is underway and there is no better time than now to support your favorite open source projects. I'll share a few tips to help you attract participants to your project and to hopefully increase the quality of the resulting contributions. Oh, and did I mention you'll get an opportunity to pick a limited edition T-shirt for free? Or, maybe you'd like to plant a tree instead? So cool! Get involved and make a difference!&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="how-to-attract-hacktoberfest-participants-to-your-github-project-repo" Type="String" />
+      <Value Key="Summary" Value="Hacktoberfest 2020 is underway and there is no better time than now to support your favorite open source projects.  I'll share a few tips to help you attract participants to your project and to hopefully increase the quality of the resulting contributions.  Oh, and did I mention you'll get an opportunity to pick a limited edition T-shirt for free?  Or, maybe you'd like to plant a tree instead?  So cool!  Get involved and make a difference!" Type="String" />
+      <Value Key="Title" Value="How To Attract Hacktoberfest Participants To Your GitHub Project Repo" Type="String" />
+      <Value Key="YouTubeId" Value="eMisjy_vJgA" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="2cb92984-fa5a-4a3c-9822-e1ec273ae69f">
+      <Value Key="Date" Value="2020-10-06T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:318" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="7c928ad6-349e-4d47-b64c-b6f27dee375b" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;Hacktoberfest 2020 is underway and there is no better time than now to support your favorite open source projects. I'll introduce you to this yearly open-source initiative and I'll bring you along for the ride on my first contribution. Oh, and did I mention you'll get an opportunity to pick a limited edition T-shirt for free? Or, maybe you'd like to plant a tree instead? So cool! Get involved and make a difference!&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="hacktoberfest-2020-how-to-get-started-and-make-a-huge-open-source-difference" Type="String" />
+      <Value Key="Summary" Value="Hacktoberfest 2020 is underway and there is no better time than now to support your favorite open source projects.  I'll introduce you to this yearly open-source initiative and I'll bring you along for the ride on my first contribution.  Oh, and did I mention you'll get an opportunity to pick a limited edition T-shirt for free?  Or, maybe you'd like to plant a tree instead?  So cool!  Get involved and make a difference!" Type="String" />
+      <Value Key="Title" Value="Hacktoberfest 2020 - How To Get Started And Make A HUGE Open Source Difference" Type="String" />
+      <Value Key="YouTubeId" Value="zQq6fvg8Oj4" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="c9383ddf-765e-467c-a56c-3ba1f98096de">
+      <Value Key="Date" Value="2020-10-04T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:300" Type="Hyperlink" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;This video provides an introduction to a new way to kickstart your custom DNN Platform extension development efforts. This new command-line interface call DNN CLI makes it quick and easy to get started developing custom extensions for this powerful .NET Content Management System (CMS).&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="introduction-to-a-new-command-line-interface-for-dnn-extension-development-dnn-cli" Type="String" />
+      <Value Key="Summary" Value="This video provides an introduction to a new way to kickstart your custom DNN Platform extension development efforts.  This new command-line interface call DNN CLI makes it quick and easy to get started developing custom extensions for this powerful .NET Content Management System (CMS)." Type="String" />
+      <Value Key="Title" Value="Introduction to a New Command Line Interface for DNN Extension Development: DNN CLI" Type="String" />
+      <Value Key="YouTubeId" Value="v-bAcvKM5II" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="89f515f7-e58a-436d-a8b9-47ab8818f410">
+      <Value Key="Date" Value="2020-08-28T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:307" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="8a6e9df4-71ec-4887-8970-2ee57e8d3bd6" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;Today DNN Dave is joined by Aaron Lopez of WOLF X MACHINA (https://wolfxmachina.com/) to talk about how to approach development &quot;the right way&quot;. What is &quot;Design First&quot;? Bring critical UI/UX thinking to your development strategy and drastically improve your resulting work products.&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="how-to-approach-development-with-a-design-first-critical-ui-ux-mindset" Type="String" />
+      <Value Key="Summary" Value="Today DNN Dave is joined by Aaron Lopez of WOLF X MACHINA (https://wolfxmachina.com/) to talk about how to approach development &quot;the right way&quot;.  What is &quot;Design First&quot;?  Bring critical UI/UX thinking to your development strategy and drastically improve your resulting work products." Type="String" />
+      <Value Key="Title" Value="How To Approach Development With A Design First, Critical UI/UX Mindset" Type="String" />
+      <Value Key="YouTubeId" Value="LdAgVppx9i4" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="9c0dbb87-3360-4612-8cb8-ffb4d18c708c">
+      <Value Key="Date" Value="2016-07-27T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:317" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="ebac3b3c-edd3-46da-bb9d-aa655bffe4c1,9f092dbb-55c1-43fe-b450-2748adb41674" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;I've spoken with David Poindexter, President and CEO of nvisionative.com, about why it is important to have contracts between you and your clients before engaging on a new project. To be honest I don't have contracts with my clients, but I have to say that David has pushed me to stop wondering and seriously consider using contracts from now on.&lt;/p&gt;&#xA;&lt;p&gt;Join the Community: &lt;a href=&quot;http://TheSoloCoder.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://TheSoloCoder.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Links: &lt;a href=&quot;https://www.proposify.biz/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.proposify.biz/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;nbsp; - &lt;a href=&quot;https://rightsignature.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://rightsignature.com/&lt;/a&gt;&amp;nbsp;&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="the-solo-coder-contracts-interview-7" Type="String" />
+      <Value Key="Summary" Value="I've spoken with David Poindexter, President and CEO of nvisionative.com, about why it is important to have contracts between you and your clients before engaging on a new project. To be honest I don't have contracts with my clients, but I have to say that David has pushed me to stop wondering and seriously consider using contracts from now on." Type="String" />
+      <Value Key="Title" Value="The Solo Coder: Contracts (Interview #7)" Type="String" />
+      <Value Key="YouTubeId" Value="zGG8a51vDfc" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="9f092dbb-55c1-43fe-b450-2748adb41674">
+      <Value Key="Date" Value="2016-05-19T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:336" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="ebac3b3c-edd3-46da-bb9d-aa655bffe4c1,9c0dbb87-3360-4612-8cb8-ffb4d18c708c" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;I spoke with David Poindexter, President &amp;amp; CEO of http://www.nvisionative.com . Let's hear about his early career as a solo coder and how he uses Accounting as a business tool.&lt;/p&gt;&#xA;&lt;p&gt;Join the Community: &lt;a href=&quot;http://TheSoloCoder.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://TheSoloCoder.com&lt;/a&gt;&amp;nbsp;&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="the-solo-coder-accounting-interview-3" Type="String" />
+      <Value Key="Summary" Value="I spoke with David Poindexter, President &amp; CEO of http://www.nvisionative.com . Let's hear about his early career as a solo coder and how he uses Accounting as a business tool." Type="String" />
+      <Value Key="Title" Value="The Solo Coder: Accounting (Interview #3)" Type="String" />
+      <Value Key="YouTubeId" Value="ObiBAP7755c" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="f395af24-3720-4d9c-8355-c470e6f64c08">
+      <Value Key="Date" Value="2017-12-18T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:320" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="ebac3b3c-edd3-46da-bb9d-aa655bffe4c1,9f092dbb-55c1-43fe-b450-2748adb41674,9c0dbb87-3360-4612-8cb8-ffb4d18c708c" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;This is a talk I&amp;rsquo;ve recorded on December 7th, 2017 with David Poindexter, Dennis Shiao and Scott Wilkinson about the sessions they will be presenting during DNN Summit 2018.&lt;/p&gt;&#xA;&lt;p&gt;David Poindexter:&lt;br /&gt;- Geolocating With DNN? Really? &lt;a href=&quot;https://youtu.be/S-cxi9NGc8E?t=40m30s&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://youtu.be/S-cxi9NGc8E?t=40m30s&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Dennis Shiao:&lt;br /&gt;- How to Write a Great Blog Post: &lt;a href=&quot;https://youtu.be/S-cxi9NGc8E?t=41m06s&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://youtu.be/S-cxi9NGc8E?t=41m06s&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Scott Wilkinson:&lt;br /&gt;- Intro to Modules Development: &lt;a href=&quot;https://youtu.be/S-cxi9NGc8E?t=41m50s&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://youtu.be/S-cxi9NGc8E?t=41m50s&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="dnn-summit-2018-talks-4-geolocation-iot-blogging-and-module-dev" Type="String" />
+      <Value Key="Summary" Value="This is a talk I’ve recorded on December 7th, 2017 with David Poindexter, Dennis Shiao and Scott Wilkinson about the sessions they will be presenting during DNN Summit 2018." Type="String" />
+      <Value Key="Title" Value="DNN Summit 2018 Talks #4 - Geolocation/IoT, Blogging and Module Dev" Type="String" />
+      <Value Key="YouTubeId" Value="S-cxi9NGc8E" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="0c2b3311-6dde-4f3e-8196-d0ebc74e82f6">
+      <Value Key="Date" Value="2020-08-08T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:313" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="292bab12-1f91-4a87-9e30-534491d41e2d" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;In this episode, I am joined by Daniel Valadas to participate in the DNN Platform 9.7.0 RC2 testing frenzy! We replaced the default site logo with an SVG logo to ensure everything worked as expected. Actually, we tested both methods for uploading the SVG.&lt;/p&gt;&#xA;&lt;p&gt;We also had a little fun in showing some enhancements to the LOGO theme object, showcasing the power of the CssClass and the two new attributes: InjectSvg and LinkCssClass.&lt;/p&gt;&#xA;&lt;p&gt;With InjectSvg, you can now inject the SVG element into the HTML, rather than the default of the source (src) of an image (img) tag.&lt;/p&gt;&#xA;&lt;p&gt;With CssClass, you now can target the SVG element and pseudo-elements for things like fill, stroke, etc.&lt;/p&gt;&#xA;&lt;p&gt;And with LinkCssClas, it is specific to the anchor (a) tag.&lt;/p&gt;&#xA;&lt;p&gt;Quick Links &lt;br /&gt;DNN Platform on GitHub - &lt;a href=&quot;https://github.com/dnnsoftware/Dnn.Platform&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/dnnsoftware/Dnn.Platform&lt;/a&gt;&lt;br /&gt;DNN Platform Releases on GitHub - &lt;a href=&quot;https://github.com/dnnsoftware/Dnn.Platform/releases&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/dnnsoftware/Dnn.Platform/releases&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Relevant Pull Requests&lt;br /&gt;- &lt;a href=&quot;https://github.com/dnnsoftware/Dnn.Platform/pull/3865&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/dnnsoftware/Dnn.Platform/pull/3865&lt;/a&gt;&lt;br /&gt;- &lt;a href=&quot;https://github.com/dnnsoftware/Dnn.Platform/pull/3898&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/dnnsoftware/Dnn.Platform/pull/3898 &lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Thanks to Daniel Valadas for participating in testing for DNN Platform 9.7.0 Release Candidate 2 (RC2)!&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="9-7-0-rc2-testing-svg-site-logo" Type="String" />
+      <Value Key="Summary" Value="In this episode, I am joined by Daniel Valadas to participate in the DNN Platform 9.7.0 RC2 testing frenzy!  We replaced the default site logo with an SVG logo to ensure everything worked as expected.  Actually, we tested both methods for uploading the SVG." Type="String" />
+      <Value Key="Title" Value="9.7.0 RC2 Testing (SVG Site Logo)" Type="String" />
+      <Value Key="YouTubeId" Value="px2VSS636u8" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="292bab12-1f91-4a87-9e30-534491d41e2d">
+      <Value Key="Date" Value="2020-08-08T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:312" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="0c2b3311-6dde-4f3e-8196-d0ebc74e82f6" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;In this episode, I am joined by Will &quot;HisMightiness&quot; Strohl to participate in the DNN Platform 9.7.0 RC2 testing frenzy! We performed a &quot;clean install&quot; and performed a few quick tests to ensure all was in order. We'll report our findings back to the Technology team.&lt;/p&gt;&#xA;&lt;p&gt;Quick Links &lt;br /&gt;DNN Platform on GitHub - &lt;a href=&quot;https://github.com/dnnsoftware/Dnn.Platform&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/dnnsoftware/Dnn.Platform&lt;/a&gt;&lt;br /&gt;DNN Platform Releases on GitHub - &lt;a href=&quot;https://github.com/dnnsoftware/Dnn.Platform/releases&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/dnnsoftware/Dnn.Platform/releases&lt;/a&gt;&lt;br /&gt;nvQuickSite - &lt;a href=&quot;https://www.nvquicksite.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.nvquicksite.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Other Mentions&lt;br /&gt;Grammarly - &lt;a href=&quot;https://www.grammarly.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.grammarly.com/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Thanks to Will Strohl and Upendo Ventures (&lt;a href=&quot;https://upendoventures.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://upendoventures.com&lt;/a&gt;) for participating in testing for DNN Platform 9.7.0 Release Candidate 2 (RC2)!&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="9-7-0-rc2-testing-clean-install" Type="String" />
+      <Value Key="Summary" Value="In this episode, I am joined by Will &quot;HisMightiness&quot; Strohl to participate in the DNN Platform 9.7.0 RC2 testing frenzy!  We performed a &quot;clean install&quot; and performed a few quick tests to ensure all was in order.  We'll report our findings back to the Technology team." Type="String" />
+      <Value Key="Title" Value="9.7.0 RC2 Testing (Clean Install)" Type="String" />
+      <Value Key="YouTubeId" Value="1iMpWt27MgA" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="bc2519af-e90f-4604-8304-49f1a160146c">
+      <Value Key="Date" Value="2020-08-08T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:331" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="8831d72e-a73d-459d-9a99-086af77af345,a4ccb0af-7f89-44b1-af95-24e2bb8a2b0a" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;In this live stream, we covered how to make a simple contribution to DNN Docs by providing &quot;Feedback&quot; on a specific page of dnndocs.com.&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="contributing-to-dnndocs-made-easy-feedback" Type="String" />
+      <Value Key="Summary" Value="In this live stream, we covered how to make a simple contribution to DNN Docs by providing &quot;Feedback&quot; on a specific page of dnndocs.com." Type="String" />
+      <Value Key="Title" Value="Contributing to DNNDocs Made Easy (Feedback)" Type="String" />
+      <Value Key="YouTubeId" Value="iwIFy-sddzw" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="db558bd0-b8ec-4343-b058-a98d4bc86a24">
+      <Value Key="Date" Value="2020-07-06T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:296" Type="Hyperlink" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;In this live stream, I talked DNN build and debugging with Peter Donker. Peter has a fantastic video series on the subject and it is a MUST VIEW for anyone wishing to build and debug DNN within a local development environment. It is also helpful for those wanting to contribute to the open-source project - all are welcome!&lt;/p&gt;&#xA;&lt;p&gt;See Peter's YouTube video series at: &lt;br /&gt;&lt;a href=&quot;https://youtube.com/playlist?list=PLMIHzZErrX693jVAt50ORp1TIIiaeLtq2&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://youtube.com/playlist?list=PLMIHzZErrX693jVAt50ORp1TIIiaeLtq2&lt;/a&gt;&amp;nbsp;&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="peter-donker-building-and-debugging-dnn-platform-on-your-own-pc" Type="String" />
+      <Value Key="Summary" Value="In this live stream, I talked DNN build and debugging with Peter Donker.  Peter has a fantastic video series on the subject and it is a MUST VIEW for anyone wishing to build and debug DNN within a local development environment.  It is also helpful for those wanting to contribute to the open-source project - all are welcome!" Type="String" />
+      <Value Key="Title" Value="Peter Donker: Building and Debugging DNN Platform On Your Own PC" Type="String" />
+      <Value Key="YouTubeId" Value="TkJqO8DYj8o" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="7aee1efb-14b8-4d26-ba76-eb2779946407">
+      <Value Key="Date" Value="2020-06-22T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:295" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="fdb5665d-fda0-4a09-8495-05bfa6b1e4bb,0ee83973-aefb-4d86-b87f-7b1c8c117bc4,8f64d176-52a1-4b4f-881f-6c523472198b" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;Today we focused on enhancing an existing view/template to render not only a list of all the glossary terms, but also the details for a single glossary term. We used some nice Razor logic to check for the existence of a an &quot;id&quot; querystring parameter value and make sure it has a valid data type. From there we rendered a different block of code for the list versus for the details. We capped it off with some basic UX work and now we have a fully functional app with related entities, and much more!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&quot;https://2sxc.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://2sxc.org&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="don-gingold-the-case-of-the-missing-glossary-part-4" Type="String" />
+      <Value Key="Summary" Value="Today we focused on enhancing an existing view/template to render not only a list of all the glossary terms, but also the details for a single glossary term.  We used some nice Razor logic to check for the existence of a an &quot;id&quot; querystring parameter value and make sure it has a valid data type.  From there we rendered a different block of code for the list versus for the details.  We capped it off with some basic UX work and now we have a fully functional app with related entities, and much more!" Type="String" />
+      <Value Key="Title" Value="Don Gingold: The Case of the Missing Glossary (Part 4)" Type="String" />
+      <Value Key="YouTubeId" Value="4wU9KQnuAic" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="90a4d91e-0535-451f-9876-740509512f71">
+      <Value Key="Date" Value="2020-05-25T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:319" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="db558bd0-b8ec-4343-b058-a98d4bc86a24,292bab12-1f91-4a87-9e30-534491d41e2d,0c2b3311-6dde-4f3e-8196-d0ebc74e82f6" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;In this live stream, I was joined by a very special guest, Daniel Valadas. We demonstrated the process for making a simple contribution to DNN Platform. The following links show the ISSUE that was going resolved and the PULL REQUEST that contained the resolution.&lt;/p&gt;&#xA;&lt;p&gt;ISSUE: &lt;a href=&quot;https://github.com/dnnsoftware/Dnn.Platform/issues/2837&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/dnnsoftware/Dnn.Platform/issues/2837&lt;/a&gt;&lt;br /&gt;PULL REQUEST: &lt;a href=&quot;https://github.com/dnnsoftware/Dnn.Platform/pull/3786&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/dnnsoftware/Dnn.Platform/pull/3786&lt;/a&gt;&amp;nbsp;&lt;/p&gt;&#xA;&lt;p&gt;If all goes well, this contribution will be included in DNN Platform 9.6.2.&lt;/p&gt;&#xA;&lt;p&gt;Thank you to John Royle for creating the ISSUE to remove this legacy image!&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="contributing-to-dnn-platform-made-easy-simple-pull-request" Type="String" />
+      <Value Key="Summary" Value="In this live stream, I was joined by a very special guest, Daniel Valadas.  We demonstrated the process for making a simple contribution to DNN Platform.  The following links show the ISSUE that was going resolved and the PULL REQUEST that contained the resolution. " Type="String" />
+      <Value Key="Title" Value="Contributing to DNN Platform Made Easy (Simple Pull Request)" Type="String" />
+      <Value Key="YouTubeId" Value="QbL3jU0G7_U" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="8831d72e-a73d-459d-9a99-086af77af345">
+      <Value Key="Date" Value="2020-05-24T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:322" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="bc2519af-e90f-4604-8304-49f1a160146c,a4ccb0af-7f89-44b1-af95-24e2bb8a2b0a" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;In this live stream, we are talking a look at how to make DNN Docs contributions within a local development environment instead of via the browser on GitHub.&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="contributing-to-dnndocs-made-easy-local-development-environment" Type="String" />
+      <Value Key="Summary" Value="In this live stream, we are talking a look at how to make DNN Docs contributions within a local development environment instead of via the browser on GitHub." Type="String" />
+      <Value Key="Title" Value="Contributing to DNNDocs Made Easy (Local Development Environment)" Type="String" />
+      <Value Key="YouTubeId" Value="hYjym9Lu7vU" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="a4ccb0af-7f89-44b1-af95-24e2bb8a2b0a">
+      <Value Key="Date" Value="2020-05-24T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:330" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="bc2519af-e90f-4604-8304-49f1a160146c,8831d72e-a73d-459d-9a99-086af77af345" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;This is a walkthrough of a simple edit to dnndocs.com using the browser only on GitHub. You don't have to be a GitHub or Git experience to help make the DNN Docs better!&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="contributing-to-dnndocs-made-easy-improve-this-doc" Type="String" />
+      <Value Key="Summary" Value="This is a walkthrough of a simple edit to dnndocs.com using the browser only on GitHub.  You don't have to be a GitHub or Git experience to help make the DNN Docs better!" Type="String" />
+      <Value Key="Title" Value="Contributing to DNNDocs Made Easy (Improve this Doc)" Type="String" />
+      <Value Key="YouTubeId" Value="jkQhvduVzCA" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="8f64d176-52a1-4b4f-881f-6c523472198b">
+      <Value Key="Date" Value="2020-05-22T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:311" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="7aee1efb-14b8-4d26-ba76-eb2779946407,fdb5665d-fda0-4a09-8495-05bfa6b1e4bb,0ee83973-aefb-4d86-b87f-7b1c8c117bc4" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;Today we focused on building out a view/template for visualizing all the glossary terms and their associated information on a page. We covered how to reference field data within the template and to even handle some more advanced features, like conditional display of a field (&quot;Read More...&quot; button) and how to list all associated of books for a given glossary term.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&quot;https://2sxc.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://2sxc.org&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="don-gingold-the-case-of-the-missing-glossary-part-3" Type="String" />
+      <Value Key="Summary" Value="Today we focused on building out a view/template for visualizing all the glossary terms and their associated information on a page.  We covered how to reference field data within the template and to even handle some more advanced features, like conditional display of a field (&quot;Read More...&quot; button) and how to list all associated of books for a given glossary term." Type="String" />
+      <Value Key="Title" Value="Don Gingold: The Case of the Missing Glossary (Part 3)" Type="String" />
+      <Value Key="YouTubeId" Value="zXlcu_bi3Tk" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="0ee83973-aefb-4d86-b87f-7b1c8c117bc4">
+      <Value Key="Date" Value="2020-05-15T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:310" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="8f64d176-52a1-4b4f-881f-6c523472198b,7aee1efb-14b8-4d26-ba76-eb2779946407,fdb5665d-fda0-4a09-8495-05bfa6b1e4bb" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;In this episode, we'll be talking with Don Gingold of Sprocket Websites as we look at a cool passion project for his wife. She is an author an Agatha Christie novel enthusiast. Don is looking to build a site to support his wife's new book and we'll be taking a dive into how structured content can help achieve some of the goals they have for the website.&lt;/p&gt;&#xA;&lt;p&gt;This is Part 2 of a multi-part live stream where you can learn how to build a custom app using 2sxc from the ground up!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&quot;https://2sxc.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://2sxc.org&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="don-gingold-the-case-of-the-missing-glossary-part-2" Type="String" />
+      <Value Key="Summary" Value="In this episode, we'll be talking with Don Gingold of Sprocket Websites as we look at a cool passion project for his wife.  She is an author an Agatha Christie novel enthusiast.  Don is looking to build a site to support his wife's new book and we'll be taking a dive into how structured content can help achieve some of the goals they have for the website.  " Type="String" />
+      <Value Key="Title" Value="Don Gingold: The Case of the Missing Glossary (Part 2)" Type="String" />
+      <Value Key="YouTubeId" Value="wmsZxIhvw1c" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="fdb5665d-fda0-4a09-8495-05bfa6b1e4bb">
+      <Value Key="Date" Value="2020-05-15T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:339" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="0ee83973-aefb-4d86-b87f-7b1c8c117bc4,8f64d176-52a1-4b4f-881f-6c523472198b,7aee1efb-14b8-4d26-ba76-eb2779946407" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;In this episode, we'll be talking with Don Gingold of Sprocket Websites as we look at a cool passion project for his wife. She is an author an Agatha Christie novel enthusiast. Don is looking to build a site to support his wife's new book and we'll be taking a dive into how structured content can help achieve some of the goals they have for the website. This is Part 1 of a multi-part live stream where you can learn how to build a custom app using 2sxc from the ground up!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&quot;https://2sxc.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://2sxc.org&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="don-gingold-the-case-of-the-missing-glossary-part-1" Type="String" />
+      <Value Key="Summary" Value="In this episode, we'll be talking with Don Gingold of Sprocket Websites as we look at a cool passion project for his wife.  She is an author an Agatha Christie novel enthusiast.  Don is looking to build a site to support his wife's new book and we'll be taking a dive into how structured content can help achieve some of the goals they have for the website.  This is Part 1 of a multi-part live stream where you can learn how to build a custom app using 2sxc from the ground up!" Type="String" />
+      <Value Key="Title" Value="Don Gingold: The Case of the Missing Glossary (Part 1)" Type="String" />
+      <Value Key="YouTubeId" Value="X-77voYBcOA" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="a5d3dafe-2790-4f8b-9bd9-758f6835c203">
+      <Value Key="Date" Value="2020-05-10T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:341" Type="Hyperlink" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;Today I am troubleshooting an nvQuickSite 1.4.1 issue reported by a DNN Community member.&lt;/p&gt;&#xA;&lt;p&gt;GitHub issue: &lt;a href=&quot;https://github.com/nvisionative/nvQuickSite/issues/252&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/nvisionative/nvQuickSite/issues/252&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;GitHub Pull Request that resolves the issue: &lt;a href=&quot;https://github.com/nvisionative/nvQuickSite/pull/253&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/nvisionative/nvQuickSite/pull/253&lt;/a&gt;&amp;nbsp;&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="nvquicksite-1-4-1-issue-installing-dnn-release-candidates" Type="String" />
+      <Value Key="Summary" Value="Today I am troubleshooting an nvQuickSite 1.4.1 issue reported by a DNN Community member." Type="String" />
+      <Value Key="Title" Value="nvQuickSite 1.4.1 Issue Installing DNN Release Candidates" Type="String" />
+      <Value Key="YouTubeId" Value="GtfCHwhAKB4" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="8a34eff1-b6bb-4971-842e-a293b030b951">
+      <Value Key="Date" Value="2019-06-19T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:303" Type="Hyperlink" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;In this session, we covered some of the new structured content solutions put in place to handle content on the new DNN Community website (&lt;a href=&quot;https://dnncommunity.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://dnncommunity.org&lt;/a&gt;).&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="dnn-community-website-structured-content-management-options" Type="String" />
+      <Value Key="Summary" Value="In this session, we covered some of the new structured content solutions put in place to handle content on the new DNN Community website (https://dnncommunity.org)." Type="String" />
+      <Value Key="Title" Value="DNN Community Website: Structured Content Management Options" Type="String" />
+      <Value Key="YouTubeId" Value="WWtG8XBQyiI" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="6cbf7905-547d-41d6-a2fb-1da6a7c5368e">
+      <Value Key="Date" Value="2018-03-10T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:309" Type="Hyperlink" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;BLOG POST &lt;br /&gt;https://www.dnnsoftware.com/community-blog/cid/155503/dnn-vnext-as-a-progressive-web-app-pwa-on-aspnet-core&lt;/p&gt;&#xA;&lt;p&gt;In this video, I will be building on Andrew Hoefling's DNN vNext proof of concept application and enabling it to run as a Progressive Web Application (PWA). This opens up all sorts of possibilities in the realm of DNN's future.&lt;/p&gt;&#xA;&lt;p&gt;With the introduction of PWAs as a delivery mechanism for the mobile user experience, we will be able to leverage Web Components (more specifically Custom Elements) to deliver functionality that is platform agnostic. These components can be utilized in ASP.NET Core MVC, ASP.Core Razor Pages, React, Angular, Vue.js, plain old Javascript, and so on. What would a DNN &quot;module&quot; look like in this future? ;-)&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;According to Google - &lt;br /&gt;&lt;a href=&quot;https://developers.google.com/web/pro...&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://developers.google.com/web/pro... &lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Progressive Web Apps are user experiences that have the reach of the web, and are:&lt;/p&gt;&#xA;&lt;p&gt;Reliable - Load instantly and never show the downasaur, even in uncertain network conditions.&lt;/p&gt;&#xA;&lt;p&gt;Fast - Respond quickly to user interactions with silky smooth animations and no janky scrolling.&lt;/p&gt;&#xA;&lt;p&gt;Engaging - Feel like a natural app on the device, with an immersive user experience.&lt;/p&gt;&#xA;&lt;p&gt;This new level of quality allows Progressive Web Apps to earn a place on the user's home screen.&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;What can the web do today? You may be surprised! &lt;br /&gt;&lt;a href=&quot;https://whatwebcando.today/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://whatwebcando.today/ &lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;This is why I believe PWAs are here to stay! Just ask these companies what they think! Twitter, Uber, Starbucks, Pinterest, Forbes, Weather.com, Washington Post, and many more!&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="dnn-vnext-as-a-progressive-web-app-pwa-on-asp-net-core" Type="String" />
+      <Value Key="Summary" Value="In this video, I will be building on Andrew Hoefling's DNN vNext proof of concept application and enabling it to run as a Progressive Web Application (PWA). This opens up all sorts of possibilities in the realm of DNN's future." Type="String" />
+      <Value Key="Title" Value="DNN vNext as a Progressive Web App (PWA) on ASP.NET Core" Type="String" />
+      <Value Key="YouTubeId" Value="VU0rBuZsYho" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="9de756d8-7a3a-4712-961f-00e5fd160da3">
+      <Value Key="Date" Value="2018-01-03T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:299" Type="Hyperlink" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;Today we had our first #DNNCMS Partners Ecosystem Advisory Group meeting. Check it out and let us know your thoughts. And let us know if you want #participate moving forward! DNN Community #FTW&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="partners-ecosystem-advisory-group-meeting-january-3-2018" Type="String" />
+      <Value Key="Summary" Value="Today we had our first #DNNCMS Partners Ecosystem Advisory Group meeting. Check it out and let us know your thoughts. And let us know if you want #participate moving forward! DNN Community #FTW" Type="String" />
+      <Value Key="Title" Value="Partners Ecosystem Advisory Group Meeting, January 3, 2018" Type="String" />
+      <Value Key="YouTubeId" Value="sLqPLX9hCnU" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="8948a04f-5c38-49e8-a706-424e0d0b5d12">
+      <Value Key="Date" Value="2015-09-10T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:334" Type="Hyperlink" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;In our first ever hangout, our very own Will Strohl will be speaking to the founder and CEO of nvisionative, David Poindexter, about their company and their latest open source contribution that includes some Hotcakes with it!&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="hotcakes-commerce-introduces-nvisionative" Type="String" />
+      <Value Key="Summary" Value="In our first ever hangout, our very own Will Strohl will be speaking to the founder and CEO of nvisionative, David Poindexter, about their company and their latest open source contribution that includes some Hotcakes with it!" Type="String" />
+      <Value Key="Title" Value="Hotcakes Commerce Introduces nvisionative" Type="String" />
+      <Value Key="YouTubeId" Value="6n-8SfANn8M" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="d006f949-88f6-47ea-8eec-3e5d2fae232a">
+      <Value Key="Date" Value="2018-04-13T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:332" Type="Hyperlink" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;Links from this webinar can be found on the blog&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&quot;https://www.dnnsoftware.com/community-blog/cid/155526/advanced-theming-webinar&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.dnnsoftware.com/community-blog/cid/155526/advanced-theming-webinar&lt;/a&gt;&amp;nbsp;&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="advanced-theming-webinar" Type="String" />
+      <Value Key="Summary" Value="Links from this webinar can be found on the blog" Type="String" />
+      <Value Key="Title" Value="Advanced Theming Webinar" Type="String" />
+      <Value Key="YouTubeId" Value="lP4M4cdDD44" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="81d8dff6-0e57-435a-82fa-efde6c1c3d92">
+      <Value Key="Date" Value="2016-03-09T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:306" Type="Hyperlink" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;Maybe you are a budding developer and are looking for a strong technology base from which to learn a diverse set of cool stuff from, contribute to and/or utilize for the greater good. Are you an entrepreneur looking to build a thriving business within a rich and mature ecosystem? Perhaps you are an &quot;outside of the box&quot; technologist looking for a strong technology platform on which to build rich applications on the web and beyond. Chances are, no matter your lot, there is something here for you.&lt;/p&gt;&#xA;&lt;p&gt;In this session David Poindexter will share a Southern Fried Buffet of DNN Goodness. He will share his passion for the DNN community. He will strive to &quot;make things click&quot; for you and to help you find your place. Life in general is what you make of it. This again is true for the DNN Community. It is what we make of it and there is honestly no better time than now to engage or re-engage! Let's rock this thing out!&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="dnn-community-user-groups-and-more" Type="String" />
+      <Value Key="Summary" Value="Maybe you are a budding developer and are looking for a strong technology base from which to learn a diverse set of cool stuff from, contribute to and/or utilize for the greater good. Are you an entrepreneur looking to build a thriving business within a rich and mature ecosystem? Perhaps you are an &quot;outside of the box&quot; technologist looking for a strong technology platform on which to build rich applications on the web and beyond. Chances are, no matter your lot, there is something here for you." Type="String" />
+      <Value Key="Title" Value="DNN Community, User Groups, and More" Type="String" />
+      <Value Key="YouTubeId" Value="NA8zv-MBN6g" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="2a3033f1-a396-49b9-8d98-5d1e5382da67">
+      <Value Key="Date" Value="2017-12-05T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:304" Type="Hyperlink" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;On-demand webinar moderated by DNN Corp's Clint Patterson and featuring David Poindexter, Kelly Ford and Ryan Moore. The panelists demonstrate administration tools for DNN websites.&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="expert-panel-dnn-administration-tools-that-make-your-job-easier" Type="String" />
+      <Value Key="Summary" Value="On-demand webinar moderated  by DNN Corp's Clint Patterson and featuring David Poindexter, Kelly Ford and Ryan Moore. The panelists demonstrate administration tools for DNN websites." Type="String" />
+      <Value Key="Title" Value="Expert Panel: DNN Administration Tools that Make Your Job Easier" Type="String" />
+      <Value Key="YouTubeId" Value="D1rBLtAJAOE" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="20b87bc3-a5d9-41a4-a4b2-4e12c0e71338">
+      <Value Key="Date" Value="2021-07-15T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:338" Type="Hyperlink" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;Speaker: David Poindexter &lt;br /&gt;Topic: DNN Strategy&lt;/p&gt;&#xA;&lt;p&gt;Bringing overall strategic direction for the DNN Platform project and coordination between all leadership teams.&lt;/p&gt;&#xA;&lt;p&gt;As the DNN Platform and DNN Community evolves, new ideas and technologies will surface. These are great and it is essential to have a &quot;gatekeeper&quot; funnel to ensure all parties are in the loop, providing feedback, and are contributing to any proposed changes in direction or special project efforts. Learn more about the exciting special projects underway and on the horizon.&lt;/p&gt;&#xA;&lt;p&gt;Speaker: Daniel Valadas &lt;br /&gt;Topic: &quot;I Like Vanilla!&quot;&lt;/p&gt;&#xA;&lt;p&gt;A DNN Theme loads on each and every page view. A heavy theme is often the main culprit for slow load times and poor PageSpeed ratings. In this talk, Daniel will present a new minimal theme that uses vanilla CSS and JavaScript without any frameworks (like Bootstrap) or libraries (like jQuery).&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;This week's Southern Fried DNN is everyone's chance to catch up on DNN, tooling, conferences, community buzz, and more! Please be sure to join us in person or online!&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;Agenda&lt;br /&gt;&amp;bull; Welcome&lt;br /&gt;&amp;bull; Sponsor Recognition&lt;br /&gt;&amp;bull; Community Buzz &amp;amp; Announcements&lt;br /&gt;&amp;bull; Main Sessions&lt;br /&gt;&amp;bull; Social Time!&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;Join Us Even though our DNN user group is nestled in the Carolinas, we are really YOUR DNN User Group regardless of your Southern heritage or lack thereof. Everyone is invited to attend in person or to join us online! We always try to broadcast the meeting so everyone can participate. Register now for the online meeting details for those of you wanting to join online.&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="southern-fried-dnn-david-poindexter-dnn-strategy-daniel-valadas-i-like-vanilla" Type="String" />
+      <Value Key="Summary" Value="Bringing overall strategic direction for the DNN Platform project and coordination between all leadership teams.  As the DNN Platform and DNN Community evolves, new ideas and technologies will surface. These are great and it is essential to have a &quot;gatekeeper&quot; funnel to ensure all parties are in the loop, providing feedback, and are contributing to any proposed changes in direction or special project efforts. Learn more about the exciting special projects underway and on the horizon." Type="String" />
+      <Value Key="Title" Value="Southern Fried DNN: David Poindexter (DNN Strategy) &amp; Daniel Valadas (&quot;I Like Vanilla!&quot;)" Type="String" />
+      <Value Key="YouTubeId" Value="aIWG1-Ed5h8" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="2471c530-cfa5-40b7-9ed7-016f3613cddc">
+      <Value Key="Date" Value="2018-08-17T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:324" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="20b87bc3-a5d9-41a4-a4b2-4e12c0e71338" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;A Web Components DNN Future &lt;br /&gt;Are you tired of JavaScript Framework Churn? Perhaps some of my latest development efforts will help brighten your day and improve your outlook for future DNN development possibilities. While this project is in the early stages, I am so excited about it and wanted to go ahead and share what I am working on for the DNN community. I believe this contribution will have similar, if not greater, impact to future DNN development as some of my previous open source contributions.&lt;/p&gt;&#xA;&lt;p&gt;About Speaker &lt;br /&gt;David Poindexter, a native of Charlotte, North Carolina, graduated from the University of North Carolina at Charlotte with a Bachelor of Science in Electrical Engineering. He also has a Masters Certification in Project Management from George Washington University. For his first nine years in the corporate sector, David's eclectic career included telecommunications, project/proposal management, business analysis and software development/architecture. Since 2007, David's primary focus has been pursuing his entrepreneurial aspirations in his role as CEO of nvisionative, Inc. nvisionative is a Creative Marketing and App Development agency located in Mooresville, North Carolina. Within the DNN community, you may know nvisionative from their open-source contributions of nvQuickSite, nvQuickTheme, and now nvQuickComponents!&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;This week's Southern Fried DNN is everyone's chance to catch up on DNN, tooling, conferences, community buzz and more! Please be sure to join us in person or online!&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;Agenda&lt;br /&gt;&amp;bull; Welcome&lt;br /&gt;&amp;bull; Sponsor Recognition&lt;br /&gt;&amp;bull; Community Buzz &amp;amp; Announcements&lt;br /&gt;&amp;bull; Community Member Highlight (Simon Holman)&lt;br /&gt;&amp;bull; A Web Components Based DNN Future (David Poindexter)&lt;br /&gt;&amp;bull; Social Time!&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;Join Us Even though our DNN user group is nestled in the Carolinas, we are really YOUR DNN User Group regardless of your Southern heritage or lack thereof. Everyone is invited to attend in person or to join us online! We always try to broadcast the meeting so everyone can participate. Below are the online meeting details for those of you wanting to join online.&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="southern-fried-dnn-a-web-components-dnn-future" Type="String" />
+      <Value Key="Summary" Value="Are you tired of JavaScript Framework Churn? Perhaps some of my latest development efforts will help brighten your day and improve your outlook for future DNN development possibilities. While this project is in the early stages, I am so excited about it and wanted to go ahead and share what I am working on for the DNN community. I believe this contribution will have similar, if not greater, impact to future DNN development as some of my previous open source contributions." Type="String" />
+      <Value Key="Title" Value="Southern Fried DNN: A Web Components DNN Future" Type="String" />
+      <Value Key="YouTubeId" Value="pPX7kfEuIsU" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="f9de2856-9f2d-4db9-83a4-350c6c3e6e01">
+      <Value Key="Date" Value="2017-09-22T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:337" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="2471c530-cfa5-40b7-9ed7-016f3613cddc,20b87bc3-a5d9-41a4-a4b2-4e12c0e71338" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;URL Redirects&lt;br /&gt;We all have the need for URL redirections whether we recognize it or not. Perhaps we need shorter, more easily memorable, URL&amp;rsquo;s or maybe we&amp;rsquo;ve gone through a site migration and need to implement redirects to maintain existing SEO results. Regardless of the scenario, we all leverage the ability to redirect URLs.&lt;/p&gt;&#xA;&lt;p&gt;In this session Ryan Moore of Moore Creative Company will lead a discussion around URL redirects and DNN. He will discuss and review DNN modules and tools used to handle redirects in different ways along with discussing real world scenarios they&amp;rsquo;ve encountered in the past. If you&amp;rsquo;ve ever wondered about what&amp;rsquo;s possible with URL redirection in DNN then this is the meeting to attend.&lt;/p&gt;&#xA;&lt;p&gt;About Ryan &lt;br /&gt;Moore Ryan is a DNN Enthusiast and owner of The Moore Creative Company. Ryan can regularly be found at DNN conventions and events. He helps run the Southern Fried DNN user group, leads the training efforts at DNN Summit, and manages the development crew at Moore Creative.&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;What&amp;rsquo;s Next With nvQuickSite? &lt;br /&gt;Have you ever had to install DNN? Did you do it with nvQuickSite? If you didn&amp;rsquo;t then you may have taken longer than needed. nvQuickSite is a great tool for installing DNN created by our very own David Poindexter of nvisionative. The DNN Community loves nvQuickSite and uses it all the time to help make installing DNN more efficient.&lt;/p&gt;&#xA;&lt;p&gt;In this brief session David is going to lead the discussion and give us a preview of what&amp;rsquo;s just around the corner for nvQuickSite. We are excited to hear and see what&amp;rsquo;s on the roadmap for nvQuickSite.&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;DNN Corp Webinar Post-Game Roundtable &lt;br /&gt;DNNCorp is hosting a webinar during the day on Thursday (just hours before our meetup) titled &amp;ldquo;The Exciting Path Ahead for DNNCorp&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;The agenda is slated to discuss:&lt;br /&gt;&amp;bull; Introduction to ESW Capital&lt;br /&gt;&amp;bull; Why ESW Capital chose to acquire DNN Software&lt;br /&gt;&amp;bull; Our philosophy for open source&lt;br /&gt;&amp;bull; Launch of Platinum support programs&lt;/p&gt;&#xA;&lt;p&gt;In this roundtable style discussion we&amp;rsquo;ll see what everyone&amp;rsquo;s thoughts &amp;amp; reactions were to the content covered in the webinar. This will be an interactive session so come prepared to engage &amp;amp; dialogue.&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;This week's Southern Fried DNN is everyone's chance to catch up on DNN, tooling, conferences, community buzz and more! Please be sure to join us in person or online!&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;Agenda&lt;br /&gt;&amp;bull; Welcome&lt;br /&gt;&amp;bull; Sponsor Recognition&lt;br /&gt;&amp;bull; Community Buzz &amp;amp; Announcements&lt;br /&gt;&amp;bull; URL Redirects (Ryan Moore)&lt;br /&gt;&amp;bull; What's Next with nvQuickSite? (David Poindexter)&lt;br /&gt;&amp;bull; DNN Corp Webinar Post-Game Roundtable&lt;br /&gt;&amp;bull; Social Time!&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;Join Us Even though our DNN user group is nestled in the Carolinas, we are really YOUR DNN User Group regardless of your Southern heritage or lack thereof. Everyone is invited to attend in person or to join us online! We always try to broadcast the meeting via GoToMeeting so everyone can participate. Below are the GoToMeeting details for those of you wanting to join online.&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="southern-fried-dnn-url-redirects-whats-next-with-nvquicksite-dnn-corp-webinar-post-game" Type="String" />
+      <Value Key="Summary" Value="Have you ever had to install DNN?  Did you do it with nvQuickSite?  If you didn’t then you may have taken longer than needed.  nvQuickSite is a great tool for installing DNN created by our very own David Poindexter of nvisionative.  The DNN Community loves nvQuickSite and uses it all the time to help make installing DNN more efficient." Type="String" />
+      <Value Key="Title" Value="Southern Fried DNN: URL Redirects + What's Next with nvQuickSite + DNN Corp Webinar Post-Game" Type="String" />
+      <Value Key="YouTubeId" Value="FVBTnfu51mU" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="b689f616-5206-4d42-88fa-46fc77d69804">
+      <Value Key="Date" Value="2017-03-17T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:316" Type="Hyperlink" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;JWT in Action with DNN 9 &amp;amp; Ionic &lt;br /&gt;This will be an exciting walk-through on exactly how to get setup DNN 8 or DNN 9 for authentication using JSON Web Tokens (JWT). Once we have have DNN configured properly, we will test using Postman. Then the real fun will begin as we integrate with a mobile app using Ionic. These will provide the fundamental building blocks for you to connect any outside application to a DNN instance using best practices.&lt;/p&gt;&#xA;&lt;p&gt;About David Poindexter &lt;br /&gt;David Poindexter, a native of Charlotte, North Carolina, graduated from the University of North Carolina at Charlotte with a Bachelor of Science in Electrical Engineering. He also has a Masters Certification in Project Management from George Washington University. For his first nine years in the corporate sector, David's eclectic career included telecommunications, project/proposal management, business analysis and software development/architecture.&lt;/p&gt;&#xA;&lt;p&gt;Since 2007, David's primary focus has been pursuing his entrepreneurial aspirations in his role as President &amp;amp; CEO of nvisionative, Inc. nvisionative is a Creative Marketing and App Development agency located in Mooresville, North Carolina. David has been an active member of the DNN community since its inception. His early development of popular iBuySpy modules made a perfect segue into the iBuySpy Workshop and eventually DotNetNuke (DNN).&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;Interview with Dennis Shiao &lt;br /&gt;Southern Fried sits down with Dennis Shiao to learn more about his background, marketing direction with DNN, and we find out whether he's for pirates or ninjas. Bring your DNN questions and we'll enjoy compelling content and conversation with Dennis.&lt;/p&gt;&#xA;&lt;p&gt;About Dennis &lt;br /&gt;Shiao Dennis is Director of Product Marketing at DNN (@DNNCorp), where he&amp;rsquo;s focused on product and content marketing. Dennis is a contributing author to the book &amp;ldquo;42 Rules of Product Marketing&amp;rdquo; and is a frequent contributor to the DNN blog. Feel free to reach out to Dennis via email, [masked] or find him on Twitter, @dshiao.&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;This week's Southern Fried DNN is everyone's chance to catch up on DNN, tooling, conferences, community buzz and more! Please be sure to join us in person or online!&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;Agenda&lt;br /&gt;&amp;bull; Welcome&lt;br /&gt;&amp;bull; Sponsor Recognition&lt;br /&gt;&amp;bull; Community Buzz &amp;amp; Announcements&lt;br /&gt;&amp;bull; Interview with Dennis Shiao (Ryan Moore)&lt;br /&gt;&amp;bull; JWT in Action with DNN 9 &amp;amp; Ionic (David Poindexter)&lt;br /&gt;&amp;bull; Giveaways&lt;br /&gt;&amp;bull; Social Time!&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;Join Us Even though our DNN user group is nestled in the Carolinas, we are really YOUR DNN User Group regardless of your Southern heritage or lack thereof. Everyone is invited to attend in person or to join us online! We always try to broadcast the meeting via GoToMeeting so everyone can participate. Below are the GoToMeeting details for those of you wanting to join online.&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="southern-fried-dnn-jwt-in-action-with-dnn-9-ionic" Type="String" />
+      <Value Key="Summary" Value="This will be an exciting walk-through on exactly how to get setup DNN 8 or DNN 9 for authentication using JSON Web Tokens (JWT).  Once we have have DNN configured properly, we will test using Postman.  Then the real fun will begin as we integrate with a mobile app using Ionic.  These will provide the fundamental building blocks for you to connect any outside application to a DNN instance using best practices.  " Type="String" />
+      <Value Key="Title" Value="Southern Fried DNN: JWT in Action with DNN 9 &amp; Ionic" Type="String" />
+      <Value Key="YouTubeId" Value="7rlRocsXYo0" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="e8f6e348-d4b9-4f93-b5b8-3ebd6dd213ff">
+      <Value Key="Date" Value="2022-01-20T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:333" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="2471c530-cfa5-40b7-9ed7-016f3613cddc" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;&lt;strong&gt;Speaker: Sebastian Leupold&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;Topic: Internationalization/Localization&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Providing a website for an international audience can be quite challenging. Sebastian will provide an overview of common aspects to take care of and strategies for addressing them using all the features of DNN Platform.&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speaker: David Poindexter&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;Topic: Web Components &quot;For Show&quot;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;We all keep hearing about web components. We believe they must be cool or something. So, just show me the freakin' secret sauce already. Stop telling me about them and start showing them - in action - in DNN!&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;This week's Southern Fried DNN is everyone's chance to catch up on DNN, tooling, conferences, community buzz. and more! Please be sure to join us in person or online!&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Agenda&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;bull; Welcome&lt;br /&gt;&amp;bull; Sponsor Recognition&lt;br /&gt;&amp;bull; Community Buzz &amp;amp; Announcements&lt;br /&gt;&amp;bull; Session #1&lt;br /&gt;&amp;bull; Session #2&lt;br /&gt;&amp;bull; Social Time!&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;Join Us Even though our DNN user group is nestled in the Carolinas, we are really YOUR DNN User Group regardless of your Southern heritage or lack thereof. Everyone is invited to attend in person or to join us online! We always try to broadcast the meeting so everyone can participate. Register now for the online meeting details for those of you wanting to join online.&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Referenced Links: &lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Meetup&lt;br /&gt;* &lt;a href=&quot;https://www.meetup.com/Southern-Fried-DNN/events/xrdncsydccbbc/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.meetup.com/Southern-Fried-DNN/events/xrdncsydccbbc/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Southern Fried DNN&lt;br /&gt;* &lt;a href=&quot;https://southernfrieddnn.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://southernfrieddnn.com/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;DNN Platform&lt;br /&gt;* &lt;a href=&quot;https://github.com/dnnsoftware/Dnn.Platform/releases&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/dnnsoftware/Dnn.Platform/releases&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;DNN Community&lt;br /&gt;* &lt;a href=&quot;https://dnncommunity.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://dnncommunity.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;DNN Docs&lt;br /&gt;* &lt;a href=&quot;https://docs.dnncommunity.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://docs.dnncommunity.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;DNN Summit&lt;br /&gt;* &lt;a href=&quot;https://www.dnnsummit.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.dnnsummit.org/ &lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;DNN Connect&lt;br /&gt;* &lt;a href=&quot;https://dnn-connect.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://dnn-connect.org/&lt;/a&gt;&lt;br /&gt;* &lt;a href=&quot;https://dnn-connect.org/community/translations&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://dnn-connect.org/community/translations&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ionic&lt;br /&gt;* &lt;a href=&quot;https://ionicframework.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://ionicframework.com/&lt;/a&gt;&amp;nbsp;&lt;/p&gt;&#xA;&lt;p&gt;Stencil&lt;br /&gt;* &lt;a href=&quot;https://stenciljs.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://stenciljs.com/&lt;/a&gt;&amp;nbsp;&lt;/p&gt;&#xA;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="sebastian-leupold-internationalization-david-poindexter-web-components" Type="String" />
+      <Value Key="Summary" Value="We all keep hearing about web components. We believe they must be cool or something. So, just show me the freakin' secret sauce already. Stop telling me about them and start showing them - in action - in DNN!" Type="String" />
+      <Value Key="Title" Value="Sebastian Leupold (Internationalization) &amp; David Poindexter (Web Components...)" Type="String" />
+      <Value Key="YouTubeId" Value="S7AdliNv84k" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="2a555fec-0e8d-4896-a922-92463350263a">
+      <Value Key="Date" Value="2022-01-29T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:302" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="ebac3b3c-edd3-46da-bb9d-aa655bffe4c1,9c0dbb87-3360-4612-8cb8-ffb4d18c708c,9f092dbb-55c1-43fe-b450-2748adb41674" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;Catching up of DNN Friends&lt;/p&gt;&#xA;&lt;p&gt;The clowns:&lt;/p&gt;&#xA;&lt;p&gt;* &lt;a href=&quot;https://www.linkedin.com/in/josephncraig&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.linkedin.com/in/josephncraig&lt;/a&gt;&amp;nbsp;&lt;br /&gt;* &lt;a href=&quot;https://www.linkedin.com/in/fixitscotty&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.linkedin.com/in/fixitscotty&lt;/a&gt;&amp;nbsp;&lt;br /&gt;* &lt;a href=&quot;https://www.linkedin.com/in/mikesmeltzer&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.linkedin.com/in/mikesmeltzer&lt;/a&gt;&amp;nbsp;&lt;br /&gt;* &lt;a href=&quot;https://www.linkedin.com/in/davidpoindexter&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.linkedin.com/in/davidpoindexter&lt;/a&gt;&lt;br /&gt;* &lt;a href=&quot;https://www.linkedin.com/in/adersonoliveira&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.linkedin.com/in/adersonoliveira&lt;/a&gt;&amp;nbsp;&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="dnn-monthly-chat-2022-reunion" Type="String" />
+      <Value Key="Summary" Value="Catching up of DNN Friends" Type="String" />
+      <Value Key="Title" Value="DNN Monthly Chat - 2022 Reunion" Type="String" />
+      <Value Key="YouTubeId" Value="u1HFYqkG61U" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="72073173-6a3c-48ab-8143-e1a4bc4e89d5" Json="True" KeyGuid="933a09e0-61a2-43be-847b-738bea38943e">
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="Name" Value="Value Filter" Type="String" />
+      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.ValueFilter, ToSic.Eav.DataSources" Type="String" />
+      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 220,&#xD;&#xA;  &quot;Left&quot;: 400&#xD;&#xA;}" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="cfaf4ae9-4dd7-4955-a128-ab02f1a19851" Json="True" KeyGuid="933a09e0-61a2-43be-847b-738bea38943e">
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="Name" Value="App" Type="String" />
+      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.App, ToSic.Eav.DataSources" Type="String" />
+      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 500,&#xD;&#xA;  &quot;Left&quot;: 380&#xD;&#xA;}" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="8e5e2f95-4afd-40fd-8700-1e12ba573d21" Json="True" KeyGuid="933a09e0-61a2-43be-847b-738bea38943e">
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="Name" Value="Type-Filter" Type="String" />
+      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.EntityTypeFilter, ToSic.Eav.DataSources" Type="String" />
+      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 360,&#xD;&#xA;  &quot;Left&quot;: 380&#xD;&#xA;}" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="|Config ToSic.Eav.DataSources.ValueFilter" AttributeSetName="ToSic.Eav.DataSources.ValueFilter" EntityGUID="64b2c590-ed24-4639-8f06-5a66d89265c8" Json="True" KeyGuid="72073173-6a3c-48ab-8143-e1a4bc4e89d5">
+      <Value Key="Attribute" Value="EntityId" Type="String" />
+      <Value Key="Languages" Value="" Type="String" />
+      <Value Key="Operator" Value="==" Type="String" />
+      <Value Key="Take" Value="" Type="String" />
+      <Value Key="Value" Value="[QueryString:id]" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="|Config ToSic.Eav.DataSources.App" AttributeSetName="ToSic.Eav.DataSources.App" EntityGUID="bce36a14-b343-4c1c-97ad-af635d9026b2" Json="True" KeyGuid="cfaf4ae9-4dd7-4955-a128-ab02f1a19851">
+      <Value Key="AppSwitch" Value="3" Type="String" />
+      <Value Key="ZoneSwitch" Value="" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="|Config ToSic.Eav.DataSources.EntityTypeFilter" AttributeSetName="ToSic.Eav.DataSources.EntityTypeFilter" EntityGUID="2e7d53f6-7c80-490f-901e-c540967f07c9" Json="True" KeyGuid="8e5e2f95-4afd-40fd-8700-1e12ba573d21">
+      <Value Key="TypeName" Value="207b2d07-cead-41a6-9c94-7cdffb45bd4c" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="DataPipeline" AttributeSetName="DataPipeline" EntityGUID="933a09e0-61a2-43be-847b-738bea38943e" Json="True">
+      <Value Key="AllowEdit" Value="True" Type="Boolean" />
+      <Value Key="Description" Value="Obtains detail data for an individual video" Type="String" />
+      <Value Key="Name" Value="VideoDetailMobile" Type="String" />
+      <Value Key="Params" Value="" Type="String" />
+      <Value Key="StreamsOut" Value="Default,Header" Type="String" />
+      <Value Key="StreamWiring" Value="72073173-6a3c-48ab-8143-e1a4bc4e89d5:Default&gt;Out:Default&#xD;&#xA;cfaf4ae9-4dd7-4955-a128-ab02f1a19851:Default&gt;8e5e2f95-4afd-40fd-8700-1e12ba573d21:Default&#xD;&#xA;8e5e2f95-4afd-40fd-8700-1e12ba573d21:Default&gt;72073173-6a3c-48ab-8143-e1a4bc4e89d5:Default" Type="String" />
+      <Value Key="TestParameters" Value="[QueryString:id]=752" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="736440ca-e6b6-4e11-9fc2-22b97f592377">
+      <Value Key="Date" Value="2022-02-17T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:340" Type="Hyperlink" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;This month, we'll be recapping DNN Summit 2022 and then we'll take some time to highlight a few exciting community projects. Trust us, they are worth knowing about and getting involved with!&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;This week's Southern Fried DNN is everyone's chance to catch up on DNN, tooling, conferences, community buzz, and more! Please be sure to join us in person or online!&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;Agenda&lt;/p&gt;&#xA;&lt;p&gt;&amp;bull; Welcome&lt;/p&gt;&#xA;&lt;p&gt;&amp;bull; Sponsor Recognition&lt;/p&gt;&#xA;&lt;p&gt;&amp;bull; Community Buzz &amp;amp; Announcements&lt;/p&gt;&#xA;&lt;p&gt;&amp;bull; DNN Summit 2022 Recap&lt;/p&gt;&#xA;&lt;p&gt;&amp;bull; Community Project Highlights&lt;/p&gt;&#xA;&lt;p&gt;&amp;bull; Social Time!&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;&#xA;&lt;p&gt;Join Us&lt;/p&gt;&#xA;&lt;p&gt;Even though our DNN user group is nestled in the Carolinas, we are really YOUR DNN User Group regardless of your Southern heritage or lack thereof. Everyone is invited to attend in person or to join us online! We always try to broadcast the meeting so everyone can participate. Register now for the online meeting details for those of you wanting to join online.&lt;/p&gt;&#xA;&lt;p&gt;----------------------------------------------------------------------&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="dnn-summit-2022-recap-community-project-highlights" Type="String" />
+      <Value Key="Summary" Value="This month, we'll be recapping DNN Summit 2022 and then we'll take some time to highlight a few exciting community projects. Trust us, they are worth knowing about and getting involved with!" Type="String" />
+      <Value Key="Title" Value="DNN Summit 2022 Recap + Community Project Highlights" Type="String" />
+      <Value Key="YouTubeId" Value="kzrDAMKqlPY" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="2277e24d-24e1-472a-b6de-6083710a6f1c">
+      <Value Key="Date" Value="2017-06-06T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:335" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="2277e24d-24e1-472a-b6de-6083710a6f1c" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;I will be following up on my introduction of Prompt and will show how to write your own extensions for it. Be sure to join us for the latest news on Prompt&amp;rsquo;s development and roadmap.&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="dnn-connect-2017-extending-prompt-for-dnn" Type="String" />
+      <Value Key="Summary" Value="I will be following up on my introduction of Prompt and will show how to write your own extensions for it. Be sure to join us for the latest news on Prompt’s development and roadmap." Type="String" />
+      <Value Key="Title" Value="DNN Connect 2017: Extending Prompt for DNN" Type="String" />
+      <Value Key="YouTubeId" Value="YY8wC083GDw" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="6f96fed7-4988-4fd7-8001-bd6beca336bc">
+      <Value Key="Date" Value="2018-06-08T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:298" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="2277e24d-24e1-472a-b6de-6083710a6f1c,d006f949-88f6-47ea-8eec-3e5d2fae232a" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;Event: DNN Connect 2018 &lt;br /&gt;Title: A new paradigm on DNN Theme Development &lt;br /&gt;Speaker: David Poindexter&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&quot;https://dnn-connect.org/events/2018/sessions&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://dnn-connect.org/events/2018/sessions&lt;/a&gt;&amp;nbsp;&lt;/p&gt;&#xA;&lt;p&gt;In this session, we'll be introducing a powerful theme building framework and developer workflow. This &quot;starter solution&quot; was made with developer efficiency and the ultimate DNN theme performance in mind. Most DNN themes in the marketplace today are loaded with bloat, which can make theming a pain, and for someone new to DNN, almost impossible. We will outline basic usage, modification, and advanced usage of this framework and developer workflow. And don't worry if you are new to DNN theme development. We will introduce fundamental theme development in DNN.&lt;/p&gt;&#xA;&lt;p&gt;About the speaker &lt;br /&gt;David Poindexter, a native of Charlotte, North Carolina, graduated from the University of North Carolina at Charlotte with a Bachelor of Science in Electrical Engineering. He also has a Masters Certification in Project Management from George Washington University. For his first nine years in the corporate sector, David's eclectic career included telecommunications, project/proposal management, business analysis and software development/architecture. Since 2007, David's primary focus has been pursuing his entrepreneurial aspirations in his role as President &amp;amp; CEO of nvisionative, Inc. nvisionative is a Creative Marketing and App Development agency located in Mooresville, North Carolina.&lt;/p&gt;&#xA;&lt;p&gt;David has been an active member of the DNN community since its inception. His early development of popular iBuySpy modules made a perfect segue into the iBuySpy Workshop and subsequently the DotNetNuke world. David's most recent efforts are focused on revitalization of the DNN community through co-leading Southern Fried DNN, serving on the board for DNN Connect and lead for the Partners Ecosystem Advisory Group.&lt;/p&gt;&#xA;&lt;p&gt;David is proud father of his one daughter. And to many people&amp;rsquo;s surprise in the DNN community, he is an avid and accomplished musician, singer, songwriter and producer. So don't hesitate to engage in a music related conversation. Music is his true passion!&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="dnn-connect-2018-a-new-paradigm-in-dnn-theme-development" Type="String" />
+      <Value Key="Summary" Value="In this session, we'll be introducing a powerful theme building framework and developer workflow. This &quot;starter solution&quot; was made with developer efficiency and the ultimate DNN theme performance in mind. Most DNN themes in the marketplace today are loaded with bloat, which can make theming a pain, and for someone new to DNN, almost impossible. We will outline basic usage, modification, and advanced usage of this framework and developer workflow. And don't worry if you are new to DNN theme development. We will introduce fundamental theme development in DNN." Type="String" />
+      <Value Key="Title" Value="DNN Connect 2018: A New Paradigm in DNN Theme Development" Type="String" />
+      <Value Key="YouTubeId" Value="gFLjScoomQw" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="207b2d07-cead-41a6-9c94-7cdffb45bd4c" AttributeSetName="Video" EntityGUID="11dedb30-d3f5-4aea-a15a-e7b950a0335e">
+      <Value Key="Date" Value="2018-06-13T00:00:00" Type="DateTime" />
+      <Value Key="Image" Value="file:325" Type="Hyperlink" />
+      <Value Key="RelatedVideos" Value="6f96fed7-4988-4fd7-8001-bd6beca336bc,2277e24d-24e1-472a-b6de-6083710a6f1c" Type="Entity" />
+      <Value Key="ShowNotes" Value="&lt;p&gt;Event: DNN Connect 2018&lt;br /&gt;Title: DNN Q and A &lt;br /&gt;Speakers: Panel Discussion&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&quot;https://dnn-connect.org/events/2018/sessions&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://dnn-connect.org/events/2018/sessions&lt;/a&gt;&amp;nbsp;&lt;/p&gt;" Type="String" />
+      <Value Key="Slug" Value="dnn-connect-2018-dnn-q-a" Type="String" />
+      <Value Key="Summary" Value="Questions and answers panel at DNN Connect 2018 in Limerick, Ireland" Type="String" />
+      <Value Key="Title" Value="DNN Connect 2018: DNN Q&amp;A" Type="String" />
+      <Value Key="YouTubeId" Value="0ws6eQAPodQ" Type="String" />
+    </Entity>
+  </Entities>
+  <PortalFiles>
+    <File Id="326" RelativePath="adam\BasicContent\PDus69Pt2ka7naplW__kwQ\Image\HelloHelloWithAdersonOliveira.jpg" />
+    <File Id="305" RelativePath="adam\BasicContent\9J1uiuxxh0iJcC7lfo071g\Image\OpenGraph-in-DNN-with-AaronLopez.jpg" />
+    <File Id="323" RelativePath="adam\BasicContent\MFMTCrAHOUSBoKJSN4NYdQ\Image\DNN-Summit-2022-Promo.jpg" />
+    <File Id="314" RelativePath="adam\BasicContent\fkYZbUOzeEqds7mn3JvhyQ\Image\Jeremy-Farrance-(Accuraty).jpg" />
+    <File Id="329" RelativePath="adam\BasicContent\Pwhi23cJKU-HpB835Z9vgg\Image\FileUpload.jpg" />
+    <File Id="321" RelativePath="adam\BasicContent\k5CAc6rRZEOS90FNPfj6hg\Image\TheFinalBattle.jpg" />
+    <File Id="328" RelativePath="adam\BasicContent\PvwIoVht0EusNk5u8K8jvA\Image\HowToAutomateCleanUpOfAdminLogsAndShrinkingOfDatabase.jpg" />
+    <File Id="315" RelativePath="adam\BasicContent\fl0GNaSzKUKdzLk-fXSGIw\Image\DNN-090800-MS-Interview.jpg" />
+    <File Id="297" RelativePath="adam\BasicContent\1oqSfJ40R022TLbyfe43Ww\Image\Hacktoberfest 2020 Live Stream.png" />
+    <File Id="318" RelativePath="adam\BasicContent\hCm5LFr6PEqYIuHsJzrmnw\Image\Hacktoberfest 2020 Live Stream.png" />
+    <File Id="300" RelativePath="adam\BasicContent\3z04yV52fEalbDuh-YCW3g\Image\dnn-cli.jpg" />
+    <File Id="307" RelativePath="adam\BasicContent\9xX1iYrlbUOouUeriBj0EA\Image\HowtoApproachDevelopmentWithACriticalUIUXMindset.jpg" />
+    <File Id="317" RelativePath="adam\BasicContent\h7sNnGAzEkaMuP-00YxwjA\Image\Contracts_20160727.jpg" />
+    <File Id="336" RelativePath="adam\BasicContent\uy0Jn8FV_kO0UCdIrbQWdA\Image\Contracts_20160519.jpg" />
+    <File Id="320" RelativePath="adam\BasicContent\JK-V8yA3nE2DVcRw5vZMCA\Image\DNNSummit2018-Talks4_20171218.jpg" />
+    <File Id="313" RelativePath="adam\BasicContent\ETMrDN5tPk-BltDrx06C9g\Image\9.7.0-RC2-SVG-Site-Logo.jpg" />
+    <File Id="312" RelativePath="adam\BasicContent\EqsrKZEfh0qeMFNEkdQeLQ\Image\9.7.0-RC2-(clean-install).jpg" />
+    <File Id="331" RelativePath="adam\BasicContent\rxklvA_pBEaDBEnxoWAUbA\Image\Screen-Shot-2020-08-08-at-2.42.29-PM.jpg" />
+    <File Id="296" RelativePath="adam\BasicContent\0ItV2-y4Q0OwWKmNS8hqJA\Image\DNN-Dave-w-Peter-Donker---Building-and-Debugging-DNN.jpg" />
+    <File Id="295" RelativePath="adam\BasicContent\-x7uergUJk26dusneZRkBw\Image\Screenshot-2020-06-22-18.31.47.jpg" />
+    <File Id="319" RelativePath="adam\BasicContent\HtmkkDUFH0WYdnQFCVEvcQ\Image\Screenshot 2020-05-25 22.05.41.png" />
+    <File Id="322" RelativePath="adam\BasicContent\LtcxiD2nnUWamQhq93rzRQ\Image\Screenshot-2020-05-24-16.55.15.jpg" />
+    <File Id="330" RelativePath="adam\BasicContent\r7DMpIl_sUSvlSTiu4orCg\Image\Screenshot-2020-05-24-13.20.23.jpg" />
+    <File Id="311" RelativePath="adam\BasicContent\dtFkj6FST0uIH2xSNHIZiw\Image\DonGingold-CaseOfTheMissingGlossary_20200522.jpg" />
+    <File Id="310" RelativePath="adam\BasicContent\cznoDvuuhk24f3scjBF7xA\Image\DonGingold-CaseOfTheMissingGlossary_20200515.jpg" />
+    <File Id="339" RelativePath="adam\BasicContent\XWa1_aD9CUqElQW_prHkuw\Image\DonGingold-CaseOfTheMissingGlossary_Part1_20200515.jpg" />
+    <File Id="341" RelativePath="adam\BasicContent\_trTpZAni0-b2XWPaDXCAw\Image\nvQuickStream_20200510.jpg" />
+    <File Id="303" RelativePath="adam\BasicContent\8e80iru2cUmELqKTsDC5UQ\Image\DNNCommunityWebsite_20190619.jpg" />
+    <File Id="309" RelativePath="adam\BasicContent\BXm_bH1U1kGi-x2mp8U2jg\Image\DNN-PWA_20180310.jpg" />
+    <File Id="299" RelativePath="adam\BasicContent\2FbnnTp6EkeWHwDl_RYNow\Image\Partners_20180103.jpg" />
+    <File Id="334" RelativePath="adam\BasicContent\T6BIiThc6EmnBkJODQtdEg\Image\Hotcakes_20150910.jpg" />
+    <File Id="332" RelativePath="adam\BasicContent\SfkG0PaI6keO7D5dL64jKg\Image\DNNCorpWebinar_20180413.jpg" />
+    <File Id="306" RelativePath="adam\BasicContent\9t_YgVcOWkOC-u_ebBw9kg\Image\DNNHangout_20160309.jpg" />
+    <File Id="304" RelativePath="adam\BasicContent\8TMwKpajuUmNmF0eU4LaZw\Image\ExpertPanel_20171205.jpg" />
+    <File Id="338" RelativePath="adam\BasicContent\w3u4INmlpEGksk4SwOcTOA\Image\Southern-Fried-DNN-Meetup---David-Poindexter-and-Daniel-Valadas-(20210715).jpg" />
+    <File Id="324" RelativePath="adam\BasicContent\MMVxJKXPt0Ce1wFvNhPN3A\Image\SouthernFriedDNNMeetingAnnouncementGraphic20180816.png" />
+    <File Id="337" RelativePath="adam\BasicContent\Vije-S2fuU2DpDUMbD5uAQ\Image\SouthernFriedDNNMeetingAnnouncementGraphic20170921.png" />
+    <File Id="316" RelativePath="adam\BasicContent\FvaJtgZSQk2I-kb8d9aYBA\Image\SouthernFriedDNNMeetingAnnouncementGraphic20170316.png" />
+    <File Id="333" RelativePath="adam\BasicContent\SOP26LnUk0-1uD69bdIT_w\Image\Southern-Fried-DNN-Meetup---Sebastian-Leupold-and-David-Poindexter-(20220120).jpg" />
+    <File Id="302" RelativePath="adam\BasicContent\7F9VKo0OlkipIpJGM1AmOg\Image\monthly-dnn-chat-2022-reunion_dp_20220129.jpg" />
+    <File Id="340" RelativePath="adam\BasicContent\ykBkc7bmEU6fwiK5f1kjdw\Image\5B9C16D7-90DA-4BDD-86A4-1EC726D3B2BE.jpeg" />
+    <File Id="335" RelativePath="adam\BasicContent\TeJ3IuEkKke23mCDcQpvHA\Image\DNN-Connect-2017-Extending-Prompt-for-DNN.png" />
+    <File Id="298" RelativePath="adam\BasicContent\1_6Wb4hJ10-AAb1r7KM2vA\Image\A-New-Paradigm-in-DNN-Theme-Development.png" />
+    <File Id="325" RelativePath="adam\BasicContent\MNveEfXT6kqhWue5UKAzXg\Image\dnn-connect-2018-q-and-a.jpg" />
+    <File Id="301" RelativePath="adam\BasicContent\7F9VKo0OlkipIpJGM1AmOg\Image\monthly-dnn-chat-2022-reunion_20220129.jpg" />
+    <File Id="308" RelativePath="adam\BasicContent\AQuDBc4HRU6-UauTopN9Bg\File\642s6Mnu.jpg" />
+    <File Id="327" RelativePath="adam\BasicContent\PDus69Pt2ka7naplW__kwQ\Image\Videos\HelloHelloWithAdersonOliveira.jpg" />
+  </PortalFiles>
+  <PortalFolders>
+    <Folder Id="3577" RelativePath="adam/BasicContent/PDus69Pt2ka7naplW__kwQ/Image/" />
+    <Folder Id="3535" RelativePath="adam/BasicContent/9J1uiuxxh0iJcC7lfo071g/Image/" />
+    <Folder Id="3571" RelativePath="adam/BasicContent/MFMTCrAHOUSBoKJSN4NYdQ/Image/" />
+    <Folder Id="3553" RelativePath="adam/BasicContent/fkYZbUOzeEqds7mn3JvhyQ/Image/" />
+    <Folder Id="3582" RelativePath="adam/BasicContent/Pwhi23cJKU-HpB835Z9vgg/Image/" />
+    <Folder Id="3567" RelativePath="adam/BasicContent/k5CAc6rRZEOS90FNPfj6hg/Image/" />
+    <Folder Id="3580" RelativePath="adam/BasicContent/PvwIoVht0EusNk5u8K8jvA/Image/" />
+    <Folder Id="3555" RelativePath="adam/BasicContent/fl0GNaSzKUKdzLk-fXSGIw/Image/" />
+    <Folder Id="3521" RelativePath="adam/BasicContent/1oqSfJ40R022TLbyfe43Ww/Image/" />
+    <Folder Id="3561" RelativePath="adam/BasicContent/hCm5LFr6PEqYIuHsJzrmnw/Image/" />
+    <Folder Id="3527" RelativePath="adam/BasicContent/3z04yV52fEalbDuh-YCW3g/Image/" />
+    <Folder Id="3539" RelativePath="adam/BasicContent/9xX1iYrlbUOouUeriBj0EA/Image/" />
+    <Folder Id="3559" RelativePath="adam/BasicContent/h7sNnGAzEkaMuP-00YxwjA/Image/" />
+    <Folder Id="3596" RelativePath="adam/BasicContent/uy0Jn8FV_kO0UCdIrbQWdA/Image/" />
+    <Folder Id="3565" RelativePath="adam/BasicContent/JK-V8yA3nE2DVcRw5vZMCA/Image/" />
+    <Folder Id="3551" RelativePath="adam/BasicContent/ETMrDN5tPk-BltDrx06C9g/Image/" />
+    <Folder Id="3549" RelativePath="adam/BasicContent/EqsrKZEfh0qeMFNEkdQeLQ/Image/" />
+    <Folder Id="3586" RelativePath="adam/BasicContent/rxklvA_pBEaDBEnxoWAUbA/Image/" />
+    <Folder Id="3519" RelativePath="adam/BasicContent/0ItV2-y4Q0OwWKmNS8hqJA/Image/" />
+    <Folder Id="3517" RelativePath="adam/BasicContent/-x7uergUJk26dusneZRkBw/Image/" />
+    <Folder Id="3563" RelativePath="adam/BasicContent/HtmkkDUFH0WYdnQFCVEvcQ/Image/" />
+    <Folder Id="3569" RelativePath="adam/BasicContent/LtcxiD2nnUWamQhq93rzRQ/Image/" />
+    <Folder Id="3584" RelativePath="adam/BasicContent/r7DMpIl_sUSvlSTiu4orCg/Image/" />
+    <Folder Id="3547" RelativePath="adam/BasicContent/dtFkj6FST0uIH2xSNHIZiw/Image/" />
+    <Folder Id="3545" RelativePath="adam/BasicContent/cznoDvuuhk24f3scjBF7xA/Image/" />
+    <Folder Id="3602" RelativePath="adam/BasicContent/XWa1_aD9CUqElQW_prHkuw/Image/" />
+    <Folder Id="3606" RelativePath="adam/BasicContent/_trTpZAni0-b2XWPaDXCAw/Image/" />
+    <Folder Id="3531" RelativePath="adam/BasicContent/8e80iru2cUmELqKTsDC5UQ/Image/" />
+    <Folder Id="3543" RelativePath="adam/BasicContent/BXm_bH1U1kGi-x2mp8U2jg/Image/" />
+    <Folder Id="3525" RelativePath="adam/BasicContent/2FbnnTp6EkeWHwDl_RYNow/Image/" />
+    <Folder Id="3592" RelativePath="adam/BasicContent/T6BIiThc6EmnBkJODQtdEg/Image/" />
+    <Folder Id="3588" RelativePath="adam/BasicContent/SfkG0PaI6keO7D5dL64jKg/Image/" />
+    <Folder Id="3537" RelativePath="adam/BasicContent/9t_YgVcOWkOC-u_ebBw9kg/Image/" />
+    <Folder Id="3533" RelativePath="adam/BasicContent/8TMwKpajuUmNmF0eU4LaZw/Image/" />
+    <Folder Id="3600" RelativePath="adam/BasicContent/w3u4INmlpEGksk4SwOcTOA/Image/" />
+    <Folder Id="3573" RelativePath="adam/BasicContent/MMVxJKXPt0Ce1wFvNhPN3A/Image/" />
+    <Folder Id="3598" RelativePath="adam/BasicContent/Vije-S2fuU2DpDUMbD5uAQ/Image/" />
+    <Folder Id="3557" RelativePath="adam/BasicContent/FvaJtgZSQk2I-kb8d9aYBA/Image/" />
+    <Folder Id="3590" RelativePath="adam/BasicContent/SOP26LnUk0-1uD69bdIT_w/Image/" />
+    <Folder Id="3529" RelativePath="adam/BasicContent/7F9VKo0OlkipIpJGM1AmOg/Image/" />
+    <Folder Id="3604" RelativePath="adam/BasicContent/ykBkc7bmEU6fwiK5f1kjdw/Image/" />
+    <Folder Id="3594" RelativePath="adam/BasicContent/TeJ3IuEkKke23mCDcQpvHA/Image/" />
+    <Folder Id="3523" RelativePath="adam/BasicContent/1_6Wb4hJ10-AAb1r7KM2vA/Image/" />
+    <Folder Id="3575" RelativePath="adam/BasicContent/MNveEfXT6kqhWue5UKAzXg/Image/" />
+    <Folder Id="3541" RelativePath="adam/BasicContent/AQuDBc4HRU6-UauTopN9Bg/File/" />
+    <Folder Id="3578" RelativePath="adam/BasicContent/PDus69Pt2ka7naplW__kwQ/Image/Videos/" />
+    <Folder Id="3515" RelativePath="adam/BasicContent/" />
+    <Folder Id="3605" RelativePath="adam/BasicContent/_trTpZAni0-b2XWPaDXCAw/" />
+    <Folder Id="3518" RelativePath="adam/BasicContent/0ItV2-y4Q0OwWKmNS8hqJA/" />
+    <Folder Id="3522" RelativePath="adam/BasicContent/1_6Wb4hJ10-AAb1r7KM2vA/" />
+    <Folder Id="3520" RelativePath="adam/BasicContent/1oqSfJ40R022TLbyfe43Ww/" />
+    <Folder Id="3524" RelativePath="adam/BasicContent/2FbnnTp6EkeWHwDl_RYNow/" />
+    <Folder Id="3526" RelativePath="adam/BasicContent/3z04yV52fEalbDuh-YCW3g/" />
+    <Folder Id="3528" RelativePath="adam/BasicContent/7F9VKo0OlkipIpJGM1AmOg/" />
+    <Folder Id="3530" RelativePath="adam/BasicContent/8e80iru2cUmELqKTsDC5UQ/" />
+    <Folder Id="3532" RelativePath="adam/BasicContent/8TMwKpajuUmNmF0eU4LaZw/" />
+    <Folder Id="3534" RelativePath="adam/BasicContent/9J1uiuxxh0iJcC7lfo071g/" />
+    <Folder Id="3536" RelativePath="adam/BasicContent/9t_YgVcOWkOC-u_ebBw9kg/" />
+    <Folder Id="3538" RelativePath="adam/BasicContent/9xX1iYrlbUOouUeriBj0EA/" />
+    <Folder Id="3540" RelativePath="adam/BasicContent/AQuDBc4HRU6-UauTopN9Bg/" />
+    <Folder Id="3542" RelativePath="adam/BasicContent/BXm_bH1U1kGi-x2mp8U2jg/" />
+    <Folder Id="3544" RelativePath="adam/BasicContent/cznoDvuuhk24f3scjBF7xA/" />
+    <Folder Id="3546" RelativePath="adam/BasicContent/dtFkj6FST0uIH2xSNHIZiw/" />
+    <Folder Id="3548" RelativePath="adam/BasicContent/EqsrKZEfh0qeMFNEkdQeLQ/" />
+    <Folder Id="3550" RelativePath="adam/BasicContent/ETMrDN5tPk-BltDrx06C9g/" />
+    <Folder Id="3552" RelativePath="adam/BasicContent/fkYZbUOzeEqds7mn3JvhyQ/" />
+    <Folder Id="3554" RelativePath="adam/BasicContent/fl0GNaSzKUKdzLk-fXSGIw/" />
+    <Folder Id="3556" RelativePath="adam/BasicContent/FvaJtgZSQk2I-kb8d9aYBA/" />
+    <Folder Id="3558" RelativePath="adam/BasicContent/h7sNnGAzEkaMuP-00YxwjA/" />
+    <Folder Id="3560" RelativePath="adam/BasicContent/hCm5LFr6PEqYIuHsJzrmnw/" />
+    <Folder Id="3562" RelativePath="adam/BasicContent/HtmkkDUFH0WYdnQFCVEvcQ/" />
+    <Folder Id="3564" RelativePath="adam/BasicContent/JK-V8yA3nE2DVcRw5vZMCA/" />
+    <Folder Id="3566" RelativePath="adam/BasicContent/k5CAc6rRZEOS90FNPfj6hg/" />
+    <Folder Id="3568" RelativePath="adam/BasicContent/LtcxiD2nnUWamQhq93rzRQ/" />
+    <Folder Id="3570" RelativePath="adam/BasicContent/MFMTCrAHOUSBoKJSN4NYdQ/" />
+    <Folder Id="3572" RelativePath="adam/BasicContent/MMVxJKXPt0Ce1wFvNhPN3A/" />
+    <Folder Id="3574" RelativePath="adam/BasicContent/MNveEfXT6kqhWue5UKAzXg/" />
+    <Folder Id="3576" RelativePath="adam/BasicContent/PDus69Pt2ka7naplW__kwQ/" />
+    <Folder Id="3579" RelativePath="adam/BasicContent/PvwIoVht0EusNk5u8K8jvA/" />
+    <Folder Id="3581" RelativePath="adam/BasicContent/Pwhi23cJKU-HpB835Z9vgg/" />
+    <Folder Id="3583" RelativePath="adam/BasicContent/r7DMpIl_sUSvlSTiu4orCg/" />
+    <Folder Id="3585" RelativePath="adam/BasicContent/rxklvA_pBEaDBEnxoWAUbA/" />
+    <Folder Id="3587" RelativePath="adam/BasicContent/SfkG0PaI6keO7D5dL64jKg/" />
+    <Folder Id="3589" RelativePath="adam/BasicContent/SOP26LnUk0-1uD69bdIT_w/" />
+    <Folder Id="3591" RelativePath="adam/BasicContent/T6BIiThc6EmnBkJODQtdEg/" />
+    <Folder Id="3593" RelativePath="adam/BasicContent/TeJ3IuEkKke23mCDcQpvHA/" />
+    <Folder Id="3595" RelativePath="adam/BasicContent/uy0Jn8FV_kO0UCdIrbQWdA/" />
+    <Folder Id="3597" RelativePath="adam/BasicContent/Vije-S2fuU2DpDUMbD5uAQ/" />
+    <Folder Id="3599" RelativePath="adam/BasicContent/w3u4INmlpEGksk4SwOcTOA/" />
+    <Folder Id="3516" RelativePath="adam/BasicContent/-x7uergUJk26dusneZRkBw/" />
+    <Folder Id="3601" RelativePath="adam/BasicContent/XWa1_aD9CUqElQW_prHkuw/" />
+    <Folder Id="3603" RelativePath="adam/BasicContent/ykBkc7bmEU6fwiK5f1kjdw/" />
+  </PortalFolders>
+</SexyContent>
