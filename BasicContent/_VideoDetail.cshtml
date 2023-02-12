@@ -15,11 +15,11 @@
     page.AddOpenGraph("description", video.Summary);
     page.AddOpenGraph("type", "video.movie");
     page.AddOpenGraph("image", @CmsContext.Site.Url + video.Image);
-    page.AddOpenGraph("url", @CmsContext.Site.Url);
+    page.AddOpenGraph("url", @CmsContext.Site.Url + "/Videos/Video/Episode/" + video.Slug);
 
     page.AddMeta("twitter:card", "summary_large_image");
     page.AddMeta("twitter:domain", @CmsContext.Site.UrlRoot);
-    page.AddMeta("twitter:url", @CmsContext.Site.Url);
+    page.AddMeta("twitter:url", @CmsContext.Site.Url + "/Videos/Video/Episode/" + video.Slug);
     page.AddMeta("twitter:title", video.Title);
     page.AddMeta("twitter:description", video.Summary);
     page.AddMeta("twitter:image", @CmsContext.Site.Url + video.Image);
@@ -56,6 +56,17 @@
         <div class="col-md-6" @Edit.TagToolbar(Content, actions: "edit")>
             <h2 class="font-weight-bolder mb-2">SUMMARY <i class="fas fa-chevron-circle-up fa-1x"></i></h2>
             <div>@Html.Raw(video.ShowNotes)</div>
+            @if(!string.IsNullOrWhiteSpace(video.Transcript))
+            {
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseTranscript" aria-expanded="false" aria-controls="collapseTranscript">
+                    <i class="fas fa-scroll mr-1"></i>View Transcript
+                </button>
+                <div class="collapse" id="collapseTranscript">
+                    <div class="card card-body">
+                        @Html.Raw(video.Transcript)
+                    </div>
+                </div>
+            }
         </div>
         <div class="col-md-6">
             @Html.Partial("shared/_RelatedVideos.cshtml")
