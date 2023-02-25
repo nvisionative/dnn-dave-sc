@@ -18,11 +18,11 @@
     page.AddOpenGraph("url", @CmsContext.Site.Url + "/Videos/Video/Episode/" + video.Slug);
 
     page.AddMeta("twitter:card", "summary_large_image");
-    page.AddMeta("twitter:domain", @CmsContext.Site.UrlRoot);
-    page.AddMeta("twitter:url", @CmsContext.Site.Url + "/Videos/Video/Episode/" + video.Slug);
+    page.AddMeta("twitter:site", "@davidpoindexter");
     page.AddMeta("twitter:title", video.Title);
     page.AddMeta("twitter:description", video.Summary);
     page.AddMeta("twitter:image", @CmsContext.Site.Url + video.Image);
+    page.AddMeta("twitter:image:alt", "Graphic for the '" + video.Title + "' video");
 }
 
 <div id="episode-@(Content.EntityId)" class="d-flex align-items-center episode-550 button-wrapper-fix">
