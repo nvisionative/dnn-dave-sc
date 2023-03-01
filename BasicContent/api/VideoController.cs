@@ -71,15 +71,14 @@ public class VideoController : Custom.Hybrid.Api12
             var guidNode = AddTag(itemNode, "guid", video.EntityGuid.ToString());
             AddAttribute(guidNode, "isPermaLink", "false");
             AddTag(itemNode, "pubDate", video.Date.ToString("R"));
-            // var enclosureNode = AddTag(itemNode, "enclosure", "");
-            // AddAttribute(enclosureNode, "url", "https://youtu.be/" + @video.YouTubeId);
+            AddPrefixedTag(itemNode, "video", "thumbnail_loc", "https://dnndave.com" + @video.Image);
         }
 
         return File(download: false, fileDownloadName: "rss.xml", contents: rssDoc);
     }
 
     private XmlElement AddPrefixedTag(XmlElement parent, string prefix, string name, string value = null) {
-        var node = parent.OwnerDocument.CreateElement(prefix, name, "");
+        var node = parent.OwnerDocument.CreateElement(prefix, name, "http://search.yahoo.com/mrss/");
         node.InnerText = value;
         parent.AppendChild(node);
         return node;
