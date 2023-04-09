@@ -10,14 +10,14 @@
 @foreach(var relatedVideo in relatedVideos) {
     <div class="row border-1 border-left" @Edit.TagToolbar(relatedVideo, actions: "edit", settings: new { hover = "left" })>
         <div class="col-lg-6 mb-1">
-            <a href="@Link.To(pageId: 46, parameters: "id=" + relatedVideo.EntityId)">
+            <a href="@Link.To(pageId: 46, parameters: "Episode=" + relatedVideo.Slug)">
                 <picture>
                     <img class="img-fluid" src="@Link.Image(relatedVideo.Image)?width=444" />
                 </picture>
             </a>
         </div>
         <div class="col-lg-6">
-            <a class="text-dark-accent" href="@Link.To(pageId: 46, parameters: "id=" + relatedVideo.EntityId)"><h6 class="font-weight-bolder">@relatedVideo.Title</h6></a>
+            <a class="text-dark-accent" href="@Link.To(pageId: 46, parameters: "Episode=" + relatedVideo.Slug)"><h6 class="font-weight-bolder">@relatedVideo.Title</h6></a>
             <h6 class="font-weight-bolder"><small>@relatedVideo.Date.ToString("MMM dd, yyyy")</small></h6>
             <p class="text-dark-highlight" 
             style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">
